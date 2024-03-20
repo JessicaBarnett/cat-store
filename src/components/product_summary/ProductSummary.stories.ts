@@ -1,5 +1,4 @@
 import type { Meta, StoryObj } from '@storybook/react';
-import { fn } from '@storybook/test';
 import { ProductSummary } from './ProductSummary';
 
 const meta = {
@@ -29,23 +28,3 @@ export const Primary: Story = {
     label: 'ProductSummary',
   },
 };
-
-// export const Secondary: Story = {
-//   args: {
-//     label: 'Button',
-//   },
-// };
-
-// export const Large: Story = {
-//   args: {
-//     size: 'large',
-//     label: 'Button',
-//   },
-// };
-
-// export const Small: Story = {
-//   args: {
-//     size: 'small',
-//     label: 'Button',
-//   },
-// };
