@@ -1,5 +1,5 @@
 import React from 'react';
-import ProductSummary from '../product_summary/ProductSummary';
+import ProductSummary from '@components/product_summary/ProductSummary';
 import './product-list.css';
 
 export const ProductList: React.FC = () => {
