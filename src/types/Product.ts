@@ -4,7 +4,7 @@ export type Product = {
     description: string,
     price: string,
     category: string,
-    images: unknown // ProductImage type, will fill in later
+    images: string[]
 }
 
 export default Product;

@@ -1,5 +1,8 @@
 import type { Meta, StoryObj } from '@storybook/react';
 import { ProductList } from './ProductList';
+import * as demoData from '@data/db.json'
+
+const { products } = demoData;
 
 const meta = {
   title: 'Components/ProductList',
@@ -24,7 +27,6 @@ type Story = StoryObj<typeof meta>;
 // More on writing stories with args: https://storybook.js.org/docs/writing-stories/args
 export const Primary: Story = {
   args: {
-    primary: true,
-    label: 'ProductList',
+    products: products
   },
 };

@@ -1,22 +1,26 @@
 import React from 'react';
 
-import { Header } from '@components/header/Header';
-import { Navigation } from '@components/navigation/Navigation';
 import { Filters } from '@components/filters/Filters';
 import { ProductList } from '@components/product_list/ProductList';
-import { Footer } from '@components/footer/Footer';
 
-import './product-list-page.css';
+import './product_list_page.css';
+import useProducts from '@hooks/useProducts';
 
 export const ProductListPage: React.FC = () => {
+  const { isLoading, products, error } = useProducts();
 
   return (
     <section className="product-list-page">
-      <Header></Header>
-      <Navigation></Navigation>
-      <Filters></Filters>
-      <ProductList></ProductList>
-      <Footer></Footer>
+      {isLoading ? (
+        <span>Loading products...</span>
+      ) : error ? (
+        <span>{JSON.stringify(error)}</span>
+      ) : (
+        <>
+          <Filters></Filters>
+          <ProductList products={products}></ProductList>
+        </>
+      )}
     </section>
   );
 };

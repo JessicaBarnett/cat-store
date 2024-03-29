@@ -5,4 +5,10 @@
     height: 250px;
     background-color: gray;
     margin: 8px 8px 8px 0;
+    overflow: hidden;
+    padding: 8px;
+}
+
+.product-image {
+    max-width: 100%;
 }

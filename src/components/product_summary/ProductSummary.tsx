@@ -1,12 +1,21 @@
 import React from 'react';
-import './product-summary.css';
+import './product_summary.css';
+import Product from '@customtypes/Product';
 
-// import Product from '../../types/Product';
+type ProductSummaryProps = {
+  product: Product
+}
 
-export const ProductSummary: React.FC = (/* Product prop */) => {
+export const ProductSummary: React.FC<ProductSummaryProps> = (props: ProductSummaryProps) => {
+  const { product } = props;
   return (
     <div className="product-summary">
-
+      {/* <img className="product-image" src={product.images[0]}></img> */}
+      <h4>{product.name}</h4>
+      <p>
+        {product.description}
+        {product.price}
+      </p>
     </div>
   );
 };

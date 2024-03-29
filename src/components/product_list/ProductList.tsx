@@ -1,14 +1,23 @@
 import React from 'react';
 import ProductSummary from '@components/product_summary/ProductSummary';
-import './product-list.css';
+import './product_list.css';
 
-export const ProductList: React.FC = () => {
-  return (
-    <div className="product-list">
-        {'abcdefghijklmnopqrstuvwxyz'.split('').map(() => (
-            <ProductSummary /*product={product}*/ />
-        ))}
-    </div>  );
+import Product from '@customtypes/Product';
+
+type ProductListProps = {
+    products: Product[]
+};
+
+export const ProductList: React.FC<ProductListProps> = (props: ProductListProps) => {
+    const { products } = props;
+
+    return (
+        <div className='product-list'>
+            {products.map((product: Product) => (
+              <ProductSummary product={product} />
+            ))}
+        </div>
+    );
 };
 
 export default ProductList;
