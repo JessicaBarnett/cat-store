@@ -6,9 +6,7 @@ import { ErrorPage } from '@pages/error_page/ErrorPage';
 import { ProductListPage } from '@pages/product_list_page/ProductListPage';
 import { HomePage } from '@pages/home_page/HomePage';
 
-
-// import './App.css'
-
+import './App.css'
 
 function App() {
   return (
