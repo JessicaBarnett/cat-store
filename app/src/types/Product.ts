@@ -4,7 +4,11 @@ export type Product = {
     description: string,
     price: string,
     category: string,
-    images: string[]
+    images: string[],
+    brand?: string,
+    kind?: string,
+    concern?: string, // veterinary products
+    consistency?: string // food products
 }
 
 export default Product;

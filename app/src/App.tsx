@@ -5,6 +5,7 @@ import { DefaultLayout } from '@layouts/default';
 import { ErrorPage } from '@pages/error_page/ErrorPage';
 import { ProductListPage } from '@pages/product_list_page/ProductListPage';
 import { HomePage } from '@pages/home_page/HomePage';
+import { ProductDetailPage } from '@pages/product_detail_page/ProductDetailPage';
 
 import './App.css'
 
@@ -13,9 +14,10 @@ function App() {
     <BrowserRouter>
       <Routes>
         <Route path="/" element={<DefaultLayout/>} errorElement={<ErrorPage />}>
-          <Route path="/products" element={<ProductListPage />} />
-          <Route path="/categories/:category" element={<ProductListPage />} />
           <Route path="/search" element={<ProductListPage />} />
+          <Route path="/categories/:category" element={<ProductListPage />} />
+          <Route path="/products" element={<ProductListPage />} />
+          <Route path="/products/:product_name" element={<ProductDetailPage />} />
           <Route index path="/" element={<HomePage />} />
         </Route>
       </Routes>
