@@ -14,6 +14,8 @@ function App() {
       <Routes>
         <Route path="/" element={<DefaultLayout/>} errorElement={<ErrorPage />}>
           <Route path="/products" element={<ProductListPage />} />
+          <Route path="/categories/:category" element={<ProductListPage />} />
+          <Route path="/search" element={<ProductListPage />} />
           <Route index path="/" element={<HomePage />} />
         </Route>
       </Routes>

@@ -1,0 +1,24 @@
+{
+    "/api/v1/products/food": "/products?category=002",
+    "/api/v1/products/wet-food": "/products?category=002&consistency=wet",
+    "/api/v1/products/dry-food": "/products?category=002&consistency=dry",
+    "/api/v1/products/veterinary-diets": "/products?category=011",
+    "/api/v1/products/treats": "/products?category=003",
+
+    "/api/v1/products/litter-and-accessories": "/products?category=004",
+    "/api/v1/products/litter": "/products?category=004",
+    "/api/v1/products/lightweight-litter": "/products?category=004&kind=lightweight",
+    "/api/v1/products/natural-litter": "/products?category=004&kind=natural",
+    "/api/v1/products/clumping-litter": "/products?category=004&kind=clumping",
+    "/api/v1/products/multicat-litter": "/products?category=004&kind=multicat",
+    "/api/v1/products/unscented-litter": "/products?category=004&kind=unscented",
+
+
+    "/api/v1/products/litter-boxes": "/products?category=005",
+    "/api/v1/products/uncovered-litter-boxes": "/products?category=005&kind=standard",
+    "/api/v1/products/covered-litter-boxes": "/products?category=005&kind=covered",
+    "/api/v1/products/top-entry-litter-boxes": "/products?category=005&kind=top-entry",
+    "/api/v1/products/sifting-litter-boxes": "/products?category=005&kind=sifting",
+    "/api/v1/products/self-cleaning-litter-boxes": "/products?category=005&kind=self-cleaning%20robotic"
+
+}

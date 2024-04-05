@@ -14,7 +14,7 @@ export const ProductList: React.FC<ProductListProps> = (props: ProductListProps)
     return (
         <div className='product-list'>
             {products.map((product: Product) => (
-              <ProductSummary product={product} />
+              <ProductSummary key={product.id} product={product} />
             ))}
         </div>
     );

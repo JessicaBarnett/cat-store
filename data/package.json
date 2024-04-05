@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "mock-db": "json-server --watch ./db.json --port 2222"
+    "mock-db": "json-server --watch ./db.json --port 2222 --routes routes.json"
   },
   "author": "",
   "license": "ISC",

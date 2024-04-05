@@ -1,36 +1,34 @@
 import { useEffect, useState } from 'react';
 import { Product } from '../types/Product';
-// import useCategories from './useCategories';
-//
-// type useProductsParams = {
-//   category?: string,
-//   query?: string
-// }
 
-export default function useProducts(/*{ category, query }: useProductsParams*/) {
+type useProductsParams = {
+  category?: string,
+  query?: string
+}
+
+export default function useProducts({ category, query }: useProductsParams) {
   const [products, setProducts] = useState<Product[]>([]);
   const [isLoading, setIsLoading] = useState<boolean>(false);
   const [error, setError] = useState<unknown>();
 
   useEffect(() => {
     (async () => {
-      // let urlComponents = ['http://localhost:2222/products'];
+      let url;
 
-      // // http://localhost:2222/products?category=006
-      // // http://localhost:2222/products?q=mouse
+      if (category) {
+        url = `http://localhost:2222/api/v1/products/${category}`;
+      } else if (query) {
+        url = `http://localhost:2222/api/v1/products?q=${query}`;
+      } else {
+        url = 'http://localhost:2222/api/v1/products';
+      }
 
-      // if (category || query) {
-      //   urlComponents.push('?');
-      // }
-
-      // if (category) {
-      //   urlComponents.push(`category=${category}`)
-
-      // }
+      // TODO: remove me
+      console.log(`fetching products for: "${category ?? query ?? 'all products'}" from url: "${url}"`);
 
       try {
         setIsLoading(true);
-        const resp = await fetch('http://localhost:2222/products');
+        const resp = await fetch(url);
         const data = await resp.json();
         setProducts(data);
         setIsLoading(false);
@@ -40,7 +38,7 @@ export default function useProducts(/*{ category, query }: useProductsParams*/) 
         setIsLoading(false);
       }
     })();
-  }, []);
+  }, [category, query]);
 
   return {
     isLoading,
