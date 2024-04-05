@@ -2,7 +2,7 @@ import { useEffect, useState } from 'react';
 import { NavItemData } from '@customtypes/NavItemData';
 
 export default function useNavigation() {
-  const [navigation, setNavigation] = useState<NavItemData[]>([]);
+  const [navigationData, setNavigation] = useState<NavItemData[]>([]);
   const [isLoading, setIsLoading] = useState<boolean>(false);
   const [error, setError] = useState<unknown>();
 
@@ -25,7 +25,7 @@ export default function useNavigation() {
 
   return {
     isLoading,
-    navigation,
+    navigationData,
     error
   };
 }

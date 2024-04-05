@@ -3,20 +3,21 @@ import { Header } from '@components/header/Header';
 import { Navigation } from '@components/navigation/Navigation';
 import { Footer } from '@components/footer/Footer';
 
-import useCategories from '@src/hooks/useCategories';
+// import useCategories from '@src/hooks/useCategories';
+import useNavigationData from '@hooks/useNavigationData';
 
 export const DefaultLayout = () => {
-  const { isLoading, categories, error } = useCategories();
+  const { isLoading, navigationData, error } = useNavigationData();
 
   return (
     <main id='main'>
         <Header />
         {isLoading ? (
-          <Navigation categories={[]}/>
+          <Navigation navData={[]}/>
         ) : error ? (
           <span>{JSON.stringify(error)}</span>
         ) : (
-            <Navigation categories={categories}/>
+            <Navigation navData={navigationData}/>
         )}
         <Outlet />
         <Footer />

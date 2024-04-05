@@ -1,13 +1,14 @@
 import type { Meta, StoryObj } from '@storybook/react';
-import { Navigation } from './Navigation';
+import { Subnavigation } from './Subnavigation';
 
+import NavItemData from '@customtypes/NavItemData';
 import * as data from '@data/db.json';
-import NavItemData from '@src/types/NavItemData';
-const navigationData = data.navigation as NavItemData[];
+const subnavData = data.navigation[0].children as NavItemData[];
+
 
 const meta = {
-  title: 'Components/Navigation',
-  component: Navigation,
+  title: 'Components/Subnavigation',
+  component: Subnavigation,
   parameters: {
     // Optional parameter to center the component in the Canvas. More info: https://storybook.js.org/docs/configure/story-layout
     layout: 'centered',
@@ -20,7 +21,7 @@ const meta = {
   },
   // Use `fn` to spy on the onClick arg, which will appear in the actions panel once invoked: https://storybook.js.org/docs/essentials/actions#action-args
   // args: { onClick: fn() },
-} satisfies Meta<typeof Navigation>;
+} satisfies Meta<typeof Subnavigation>;
 
 export default meta;
 type Story = StoryObj<typeof meta>;
@@ -28,6 +29,6 @@ type Story = StoryObj<typeof meta>;
 // More on writing stories with args: https://storybook.js.org/docs/writing-stories/args
 export const Primary: Story = {
   args: {
-    navData: navigationData
+    subnavData: subnavData,
   },
 };
