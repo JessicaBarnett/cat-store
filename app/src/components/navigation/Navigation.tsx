@@ -1,7 +1,6 @@
 import React from "react";
 import "./navigation.css";
 import { NavItem } from "@components/nav_item/NavItem";
-import { SearchField } from "@components/search_field/SearchField";
 import NavItemData from "@customtypes/NavItemData";
 import Subnavigation from "@components/subnavigation/Subnavigation";
 
@@ -28,7 +27,6 @@ export const Navigation: React.FC<NavigationProps> = (
           </NavItem>
         ))}
       </ul>
-      <SearchField></SearchField>
     </nav>
   );
 };
