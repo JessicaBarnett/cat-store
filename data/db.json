@@ -11,7 +11,7 @@
             "children": [
                 {
                     "name": "Wet Food",
-                    "link": "categories/wet-food",
+                    "link": "/categories/wet-food",
                     "query": [
                         "category=002&consistency=wet"
                     ]
@@ -25,14 +25,14 @@
                 },
                 {
                     "name": "Veterinary Diets",
-                    "link": "categories/veterinary-diets",
+                    "link": "/categories/veterinary-diets",
                     "query": [
                         "category=011"
                     ]
                 },
                 {
                     "name": "Treats",
-                    "link": "categories/treats",
+                    "link": "/categories/treats",
                     "query": [
                         "category=003"
                     ]
@@ -49,7 +49,7 @@
             "children": [
                 {
                     "name": "Litter",
-                    "link": "categories/litter",
+                    "link": "/categories/litter",
                     "query": [
                         "category=004"
                     ],
@@ -138,42 +138,42 @@
                 },
                 {
                     "name": "Scoops and Supplies",
-                    "link": "/categories/litter-supplies",
+                    "link": "/categories/scoops-and-supplies",
                     "query": [
                         "tba"
                     ],
                     "children": [
                         {
                             "name": "scoops",
-                            "link": "categories/litter-scoops",
+                            "link": "/categories/litter-scoops",
                             "query": [
                                 "tba"
                             ]
                         },
                         {
                             "name": "litter mats",
-                            "link": "categories/litter-mats",
+                            "link": "/categories/litter-mats",
                             "query": [
                                 "tba"
                             ]
                         },
                         {
                             "name": "Litter Box Liners",
-                            "link": "categories/litter-liners",
+                            "link": "/categories/litter-liners",
                             "query": [
                                 "tba"
                             ]
                         },
                         {
                             "name": "Deodorizers",
-                            "link": "categories/litter-deodorizers",
+                            "link": "/categories/litter-deodorizers",
                             "query": [
                                 "tba"
                             ]
                         },
                         {
                             "name": "Litter Box Furniture",
-                            "link": "categories/litter-furniture",
+                            "link": "/categories/litter-furniture",
                             "query": [
                                 "tba"
                             ]
@@ -191,7 +191,7 @@
             "children": [
                 {
                     "name": "Chase Toys",
-                    "link": "categories/chase-toys",
+                    "link": "/categories/chase-toys",
                     "query": [
                         "category=001&kind=chase"
                     ]
@@ -212,7 +212,7 @@
                 },
                 {
                     "name": "Kickers",
-                    "link": "/categories/kickers",
+                    "link": "/categories/kicker-toys",
                     "query": [
                         "category=001&kind=kicker"
                     ]
@@ -243,7 +243,7 @@
         },
         {
             "name": "Beds, Trees, & Tunnels",
-            "link": "categories/beds-trees-tunnels",
+            "link": "/categories/beds-trees-tunnels",
             "query": [
                 "tba"
             ],
@@ -273,7 +273,7 @@
         },
         {
             "name": "Carriers, Harnesses, & Training Supplies",
-            "link": "categories/carriers-harnesses",
+            "link": "/categories/carriers-harnesses",
             "query": [
                 "tba"
             ],
@@ -317,7 +317,7 @@
         },
         {
             "name": "Health & Grooming",
-            "link": "categories/health-grooming",
+            "link": "/categories/health-grooming",
             "children": [
                 {
                     "name": "Claw Clippers",
@@ -358,7 +358,7 @@
         },
         {
             "name": "Veterinary Diets",
-            "link": "categories/veterinary-diets",
+            "link": "/categories/veterinary-diets",
             "query": [
                 "category=011"
             ],

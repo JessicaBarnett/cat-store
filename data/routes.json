@@ -2,7 +2,6 @@
     "/api/v1/products/food": "/products?category=002",
     "/api/v1/products/wet-food": "/products?category=002&consistency=wet",
     "/api/v1/products/dry-food": "/products?category=002&consistency=dry",
-    "/api/v1/products/veterinary-diets": "/products?category=011",
     "/api/v1/products/treats": "/products?category=003",
 
     "/api/v1/products/litter-and-accessories": "/products?category=004",
@@ -13,12 +12,50 @@
     "/api/v1/products/multicat-litter": "/products?category=004&kind=multicat",
     "/api/v1/products/unscented-litter": "/products?category=004&kind=unscented",
 
-
     "/api/v1/products/litter-boxes": "/products?category=005",
     "/api/v1/products/uncovered-litter-boxes": "/products?category=005&kind=standard",
     "/api/v1/products/covered-litter-boxes": "/products?category=005&kind=covered",
     "/api/v1/products/top-entry-litter-boxes": "/products?category=005&kind=top-entry",
     "/api/v1/products/sifting-litter-boxes": "/products?category=005&kind=sifting",
-    "/api/v1/products/self-cleaning-litter-boxes": "/products?category=005&kind=self-cleaning%20robotic"
+    "/api/v1/products/self-cleaning-litter-boxes": "/products?category=005&kind=self-cleaning%20robotic",
 
+    "/api/v1/products/scoops-and-supplies": "/products?tba",
+    "/api/v1/products/litter-scoops": "/products?tba",
+    "/api/v1/products/litter-mats": "/products?tba",
+    "/api/v1/products/litter-liners": "/products?tba",
+    "/api/v1/products/litter-deodorizers": "/products?tba",
+    "/api/v1/products/litter-furniture": "/products?tba",
+
+    "/api/v1/products/toys": "/products?category=001",
+    "/api/v1/products/chase-toys": "/products?category=001&kind=chase",
+    "/api/v1/products/wand-toys": "/products?category=001&kind=wand",
+    "/api/v1/products/track-toys": "/products?category=001&kind=track",
+    "/api/v1/products/kicker-toys": "/products?category=001&kind=kicker",
+    "/api/v1/products/electronic-toys": "/products?category=001&kind=electronic",
+    "/api/v1/products/catnip-silvervine": "/products?category=001&q=catnip",
+    "/api/v1/products/exercise-wheels": "/products?category=001&kind=exercise%20wheel",
+
+    "/api/v1/products/beds-trees-tunnels": "/products?tba",
+    "/api/v1/products/beds": "/products?tba",
+    "/api/v1/products/trees": "/products?tba",
+    "/api/v1/products/tunnels": "/products?tba",
+
+    "/api/v1/products/carriers-harnesses": "/products?tba",
+    "/api/v1/products/carriers": "/products?tba",
+    "/api/v1/products/collars-tags": "/products?tba",
+    "/api/v1/products/harnesses": "/products?tba",
+    "/api/v1/products/leashes": "/products?tba",
+    "/api/v1/products/training": "/products?tba",
+
+    "/api/v1/products/health-grooming": "/products?tba",
+    "/api/v1/products/nail-clippers": "/products?tba",
+    "/api/v1/products/brushes": "/products?tba",
+    "/api/v1/products/flea-tick": "/products?tba",
+    "/api/v1/products/pharmacy": "/products?tba",
+
+    "/api/v1/products/veterinary-diets": "/products?category=011",
+    "/api/v1/products/vet-diet-urinary": "/products?category=011&concern=urinary%20tract%20health",
+    "/api/v1/products/vet-diet-weight": "/products?category=011&concern=weight%20management",
+    "/api/v1/products/vet-diet-diabetes": "/products?category=011&concern=diabetes",
+    "/api/v1/products/vet-diet-allergy": "/products?category=011&concern=allergy"
 }
