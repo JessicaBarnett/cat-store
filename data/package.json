@@ -4,11 +4,11 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "mock-db": "json-server --watch ./db.json"
+    "mock-db": "json-server --watch ./db.json --port 2222"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "json-server": "^1.0.0-alpha.23"
+    "json-server": "0.17.4"
   }
 }

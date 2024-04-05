@@ -4,6 +4,7 @@ import { Filters } from '@components/filters/Filters';
 import { ProductList } from '@components/product_list/ProductList';
 
 import './product_list_page.css';
+
 import useProducts from '@hooks/useProducts';
 
 export const ProductListPage: React.FC = () => {

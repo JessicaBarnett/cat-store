@@ -4,3 +4,8 @@
     background-color: lightgray;
     text-align: center;
 }
+
+.navigation-list {
+    display: flex;
+    list-style-type: none;
+}

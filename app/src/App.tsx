@@ -12,7 +12,7 @@ function App() {
   return (
     <BrowserRouter>
       <Routes>
-        <Route path="/" element={<DefaultLayout />} errorElement={<ErrorPage />}>
+        <Route path="/" element={<DefaultLayout/>} errorElement={<ErrorPage />}>
           <Route path="/products" element={<ProductListPage />} />
           <Route index path="/" element={<HomePage />} />
         </Route>
