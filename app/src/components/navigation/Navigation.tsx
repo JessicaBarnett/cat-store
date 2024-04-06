@@ -16,12 +16,12 @@ export const Navigation: React.FC<NavigationProps> = (
   return (
     <nav className="navigation">
       <ul className="navigation-list">
-        {navData.map((navItemData: NavItemData) => (
-          <NavItem url={navItemData.link} text={navItemData.name}>
+        {navData.map((navItem: NavItemData) => (
+          <NavItem key={navItem.id} navItemData={navItem}>
             <>
               {/* todo: this sould get added on hover/click not on load */}
-              {navItemData.children && (
-                <Subnavigation subnavData={navItemData.children}/>
+              {navItem.children && (
+                <Subnavigation subnavData={navItem.children}/>
               )}
             </>
           </NavItem>

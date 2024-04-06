@@ -1,19 +1,19 @@
 import React from 'react';
 import {Link} from 'react-router-dom';
 import './nav_item.css';
+import NavItemData from '@customtypes/NavItemData';
 
 type NavItemProps = {
-  url: string,
-  text: string,
+  navItemData: NavItemData,
   children?: JSX.Element | JSX.Element[];
 };
 
 export const NavItem: React.FC<NavItemProps> = (props: NavItemProps) => {
-  const { url, text, children } = props;
+  const { navItemData, children } = props;
 
   return (
     <li className="nav-item">
-      <Link to={url}>{text}</Link>
+      <Link to={navItemData.link}>{navItemData.name}</Link>
       {children}
     </li>
   )

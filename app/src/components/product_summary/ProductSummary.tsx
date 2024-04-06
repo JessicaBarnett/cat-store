@@ -13,16 +13,14 @@ type ProductSummaryProps = {
 export const ProductSummary: React.FC<ProductSummaryProps> = (props: ProductSummaryProps) => {
   const { product } = props;
   return (
-    <div className="product-summary">
-      <Link to={`/products/${slugify(product.name)}`}>
-        {/* <img className="product-image" src={product.images[0]}></img> */}
-        <h4>{product.name}</h4>
-        <p>
-          {product.description}
-          {product.price}
-        </p>
-      </Link>
-    </div>
+    <Link className="product-summary" to={`/products/${slugify(product.name)}`}>
+      {/* <img className="product-image" src={product.images[0]}></img> */}
+      <h4>{product.name}</h4>
+      <p>
+        {product.description}
+        {product.price}
+      </p>
+    </Link>
   );
 };
 

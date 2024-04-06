@@ -3,10 +3,13 @@
     border: 1px solid transparent;
     background-color: lightgray;
     text-align: center;
+    padding: 0 32px;
 }
 
 .navigation-list {
     display: flex;
     justify-content: space-between;
     list-style-type: none;
+    padding: 0;
+    margin: 0;
 }

@@ -13,7 +13,7 @@ export const Subnavigation: React.FC<SubnavigationProps> = (props: Subnavigation
   return (
     <ul className="subnavigation">
       {subnavData.map((subnavItem) => (
-        <NavItem text={subnavItem.name} url={subnavItem.link}>
+        <NavItem key={subnavItem.id} navItemData={subnavItem}>
           <>
             {/* todo: this sould get added on hover/click not on load */}
             {subnavItem.children && (

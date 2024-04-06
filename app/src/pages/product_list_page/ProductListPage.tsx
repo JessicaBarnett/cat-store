@@ -1,7 +1,6 @@
 import React from 'react';
 import { useParams, useSearchParams } from "react-router-dom";
 
-
 import { Filters } from '@components/filters/Filters';
 import { ProductList } from '@components/product_list/ProductList';
 
