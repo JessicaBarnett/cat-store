@@ -2,11 +2,15 @@
     display: block;
     flex-grow: 1;
     flex-basis: 200px;
-    height: 250px;
     background-color: gray;
     margin: 8px 8px 8px 0;
     overflow: hidden;
     padding: 8px;
+}
+
+.product-image-wrapper {
+    height: 550px;
+    width: 100px;
 }
 
 .product-image {

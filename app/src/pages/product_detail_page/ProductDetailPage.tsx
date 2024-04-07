@@ -4,7 +4,7 @@ import Product from '@customtypes/Product';
 import ProductDetail from '@src/components/product_detail/ProductDetail';
 
 
-export const ProductDetailPage: React.FC<ProductDetailPageProps> = () => {
+export const ProductDetailPage: React.FC = () => {
   const product: Product = {
     "id": "e3dffd6a-6901-44ca-8690-4ad8f899b96a",
     "name": "Crinkle toy 1",
