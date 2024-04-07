@@ -3,11 +3,20 @@ import { Product } from '../types/Product';
 
 type useProductsParams = {
   category?: string,
-  query?: string
+  query?: string,
+  productId?: string
 }
 
-export default function useProducts({ category, query }: useProductsParams) {
+type useProductsReturn = {
+  isLoading: boolean
+  products?: Product[],
+  product?:  Product,
+  error: unknown
+}
+
+export default function useProducts({ category, query, productId }: useProductsParams): useProductsReturn {
   const [products, setProducts] = useState<Product[]>([]);
+  const [product, setProduct] = useState<Product>();
   const [isLoading, setIsLoading] = useState<boolean>(false);
   const [error, setError] = useState<unknown>();
 
@@ -19,18 +28,25 @@ export default function useProducts({ category, query }: useProductsParams) {
         url = `http://localhost:2222/api/v1/products/${category}`;
       } else if (query) {
         url = `http://localhost:2222/api/v1/products?q=${query}`;
+      } else if (productId) {
+        url = `http://localhost:2222/api/v1/products/${productId}`;
       } else {
         url = 'http://localhost:2222/api/v1/products';
       }
 
       // TODO: remove me
-      console.log(`fetching products for: "${category ?? query ?? 'all products'}" from url: "${url}"`);
+      console.log(`fetching product(s) for: "${category ?? query ?? productId ?? 'all products'}" from url: "${url}"`);
 
       try {
         setIsLoading(true);
         const resp = await fetch(url);
         const data = await resp.json();
-        setProducts(data);
+        if (Array.isArray(data)) {
+          setProducts(data);
+        } else {
+          setProduct(data)
+        }
+
         setIsLoading(false);
       } catch (err) {
         setError(err);
@@ -38,11 +54,12 @@ export default function useProducts({ category, query }: useProductsParams) {
         setIsLoading(false);
       }
     })();
-  }, [category, query]);
+  }, [category, query, productId]);
 
   return {
     isLoading,
     products,
+    product,
     error
   };
 }

@@ -57,5 +57,7 @@
     "/api/v1/products/vet-diet-urinary": "/products?category=011&concern=urinary%20tract%20health",
     "/api/v1/products/vet-diet-weight": "/products?category=011&concern=weight%20management",
     "/api/v1/products/vet-diet-diabetes": "/products?category=011&concern=diabetes",
-    "/api/v1/products/vet-diet-allergy": "/products?category=011&concern=allergy"
+    "/api/v1/products/vet-diet-allergy": "/products?category=011&concern=allergy",
+
+    "/api/v1/products/:id": "/products/:id"
 }

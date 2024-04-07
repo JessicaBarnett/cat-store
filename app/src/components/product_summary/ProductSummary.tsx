@@ -13,7 +13,7 @@ type ProductSummaryProps = {
 export const ProductSummary: React.FC<ProductSummaryProps> = (props: ProductSummaryProps) => {
   const { product } = props;
   return (
-    <Link className="product-summary" to={`/products/${slugify(product.name)}`}>
+    <Link className="product-summary" to={`/products/${slugify(product.name)}/${product.id}`}>
       {/* TODO: placeholder image so there's less content jumping around.  Also text styling */}
       <img className="product-image" src={product.images[0]} loading="lazy"></img>
       <h4>{product.name}</h4>

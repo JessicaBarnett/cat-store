@@ -1,24 +1,26 @@
 import React from 'react';
-import { useParams } from 'react-router-dom';
+import { useSearchParams } from 'react-router-dom';
 
 import { Filters } from '@components/filters/Filters';
 import { ProductList } from '@components/product_list/ProductList';
 
-import './product_list_page.css';
+import './search_page.css';
 
 import useProducts from '@hooks/useProducts';
 
-export const ProductListPage: React.FC = () => {
-  // category page
-  const { category } = useParams();
+export const SearchPage: React.FC = () => {
+  const [searchParams ] = useSearchParams();
+  const query = searchParams.get('q');
 
   const useProductsParams = {
-    ...( category && {category : category }),
+    ...( query && {query : query }),
   };
+
   const { isLoading, products, error } = useProducts(useProductsParams);
 
   return (
-    <section className='product-list-page'>
+    <section className='search-page'>
+      <h3>displaying results for "{query}"</h3>
       {isLoading ? (
         <span>Loading products...</span>
       ) : products ? (
