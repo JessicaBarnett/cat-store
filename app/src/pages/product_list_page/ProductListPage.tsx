@@ -1,5 +1,5 @@
 import React from 'react';
-import { useParams, useSearchParams } from "react-router-dom";
+import { useParams, useSearchParams } from 'react-router-dom';
 
 import { Filters } from '@components/filters/Filters';
 import { ProductList } from '@components/product_list/ProductList';
@@ -20,7 +20,7 @@ export const ProductListPage: React.FC = () => {
   const { isLoading, products, error } = useProducts(useProductsParams);
 
   return (
-    <section className="product-list-page">
+    <section className='product-list-page'>
       {isLoading ? (
         <span>Loading products...</span>
       ) : error ? (

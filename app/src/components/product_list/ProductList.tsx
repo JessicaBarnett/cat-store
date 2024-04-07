@@ -1,8 +1,6 @@
 import React from 'react';
 import ProductSummary from '@components/product_summary/ProductSummary';
 import './product_list.css';
-
-
 import Product from '@customtypes/Product';
 
 type ProductListProps = {
