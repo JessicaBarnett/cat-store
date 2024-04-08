@@ -11,12 +11,17 @@ export const ProductDetail: React.FC<ProductDetailProps> = (props: ProductDetail
 
   return (
     <div className="product-detail">
-      <img className="product-image" src={product.images[0]}></img>
-      <h4>{product.name}</h4>
-      <p>
-        {product.description}
-        {product.price}
-      </p>
+      <div className="product-detail-left">
+        <img className="product-image" src={product.images[0]}></img>
+      </div>
+      <div className="product-detail-left">
+        <h4>{product.name}</h4>
+        <p>
+          {product.brand}<br></br>
+          {product.price}<br></br>
+          {product.description}
+        </p>
+      </div>
     </div>
   );
 };

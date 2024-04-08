@@ -1,3 +1,10 @@
 .product-detail {
     padding: 8px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 24px;
+}
+
+.product-detail-left {
+    grid-row: span 6;
 }
