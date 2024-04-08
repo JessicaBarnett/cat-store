@@ -17,7 +17,7 @@ function App() {
       <Routes>
         <Route path="/" element={<DefaultLayout/>} errorElement={<ErrorPage />}>
           <Route path="/search" element={<SearchPage />} />
-          <Route path="/categories/:category" element={<ProductListPage />} />
+          <Route path="/categories/:categoryName" element={<ProductListPage />} />
           <Route path="/products" element={<ProductListPage />} />
           <Route path="/products/:productName/:productId" element={<ProductDetailPage />} />
           <Route index path="/" element={<HomePage />} />

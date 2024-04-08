@@ -4,43 +4,31 @@
             "id": "6268da42-a997-4b8e-ab17-d0a177e143cd",
             "name": "Food",
             "link": "/categories/food",
-            "query": [
-                "category=003",
-                "category=002",
-                "category=011"
-            ],
             "children": [
                 {
                     "id": "6268da42-a997-4b8e-ab17-d0a177e143ce",
                     "name": "Wet Food",
-                    "link": "/categories/wet-food",
-                    "query": [
-                        "category=002&consistency=wet"
-                    ]
+                    "link": "/categories/wet-food"
                 },
                 {
                     "id": "6268da42-a997-4b8e-ab17-d0a177e143ca",
                     "name": "Dry Food",
-                    "link": "/categories/dry-food",
-                    "query": [
-                        "category=002&consistency=dry"
-                    ]
+                    "link": "/categories/dry-food"
                 },
                 {
                     "id": "6268da42-a997-4b8e-ab17-d0a177e143cb",
                     "name": "Veterinary Diets",
-                    "link": "/categories/veterinary-diets",
-                    "query": [
-                        "category=011"
-                    ]
+                    "link": "/categories/veterinary-diets"
                 },
                 {
                     "id": "6268da42-a997-4b8e-ab17-d0a177e143dc",
                     "name": "Treats",
-                    "link": "/categories/treats",
-                    "query": [
-                        "category=003"
-                    ]
+                    "link": "/categories/treats"
+                },
+                {
+                    "id": "6268da42-a997-4b8c-ab17-d0a177e143dc",
+                    "name": "Bowls & Fountains",
+                    "link": "/categories/bowls-fountains"
                 }
             ]
         },
@@ -48,58 +36,36 @@
             "id": "6268da42-a997-4b8e-ab17-d0a177e143ec",
             "name": "Litter & Accessories",
             "link": "/categories/litter-and-accessories",
-            "query": [
-                "category=004",
-                "category=005"
-            ],
             "children": [
                 {
                     "id": "6268da42-a997-4b8e-ab17-d0a177e143ac",
                     "name": "Litter",
                     "link": "/categories/litter",
-                    "query": [
-                        "category=004"
-                    ],
                     "children": [
                         {
                             "id": "6268da42-a997-4b8e-ab17-d0a177e143bc",
                             "name": "lightweight litter",
-                            "link": "/categories/lightweight-litter",
-                            "query": [
-                                "category=004&kind=lightweight"
-                            ]
+                            "link": "/categories/lightweight-litter"
                         },
                         {
                             "id": "6268da42-a997-4b8e-ab17-d0a177e144cc",
                             "name": "All-Natural Litter",
-                            "link": "/categories/natural-litter",
-                            "query": [
-                                "category=004&kind=natural"
-                            ]
+                            "link": "/categories/natural-litter"
                         },
                         {
                             "id": "6268da42-a997-4b8e-ab17-d0a177e145cc",
                             "name": "Clumping Litter",
-                            "link": "/categories/clumping-litter",
-                            "query": [
-                                "category=004&kind=clumping"
-                            ]
+                            "link": "/categories/clumping-litter"
                         },
                         {
                             "id": "6268da42-a997-4b8e-ab17-d0a177e146cc",
                             "name": "Multi-cat Litter",
-                            "link": "/categories/multi-cat-litter",
-                            "query": [
-                                "category=004&kind=multicat"
-                            ]
+                            "link": "/categories/multi-cat-litter"
                         },
                         {
                             "id": "6268da42-a997-4b8e-ab17-d0a177e147cc",
                             "name": "Unscented Litter",
-                            "link": "/categories/unscented-litter",
-                            "query": [
-                                "category=004&kind=unscented"
-                            ]
+                            "link": "/categories/unscented-litter"
                         }
                     ]
                 },
@@ -107,50 +73,31 @@
                     "id": "6268da42-a997-4b8e-ab17-d0a177e148cc",
                     "name": "Litter Boxes",
                     "link": "/categories/litter-boxes",
-                    "query": [
-                        "category=005"
-                    ],
                     "children": [
                         {
                             "id": "6268da42-a997-4b8e-ab17-d0a177e149cc",
                             "name": "Litter Boxes",
-                            "link": "/categories/uncovered-litter-boxes",
-                            "query": [
-                                "category=005&kind=standard",
-                                "category=005&kind=extra%20large"
-                            ]
+                            "link": "/categories/uncovered-litter-boxes"
                         },
                         {
                             "id": "6268da42-a997-4b8e-ab17-d0a177e140cc",
                             "name": "Covered Boxes",
-                            "link": "/categories/covered-litter-boxes",
-                            "query": [
-                                "category=005&kind=covered"
-                            ]
+                            "link": "/categories/covered-litter-boxes"
                         },
                         {
                             "id": "6268da42-a997-4b8e-ab17-d0a177e141cc",
                             "name": "Top Entry Boxes",
-                            "link": "/categories/top-entry-litter-boxes",
-                            "query": [
-                                "category=005&kind=top-entry"
-                            ]
+                            "link": "/categories/top-entry-litter-boxes"
                         },
                         {
                             "id": "6268da42-a997-4b8e-ab17-d0a177e142cc",
                             "name": "Sifting Boxes",
-                            "link": "/categories/sifting-litter-boxes",
-                            "query": [
-                                "category=005&kind=sifting"
-                            ]
+                            "link": "/categories/sifting-litter-boxes"
                         },
                         {
                             "id": "6268da42-a997-4b8e-ab17-d0a177e153cc",
                             "name": "Self-Cleaning Boxes",
-                            "link": "/categories/self-cleaning-litter-boxes",
-                            "query": [
-                                "category=005&kind=self-cleaning%20robotic"
-                            ]
+                            "link": "/categories/self-cleaning-litter-boxes"
                         }
                     ]
                 },
@@ -158,49 +105,31 @@
                     "id": "6268da42-a997-4b8e-ab17-d0a177e163cc",
                     "name": "Scoops and Supplies",
                     "link": "/categories/scoops-and-supplies",
-                    "query": [
-                        "tba"
-                    ],
                     "children": [
                         {
                             "id": "6268da42-a997-4b8e-ab17-d0a177e173cc",
                             "name": "scoops",
-                            "link": "/categories/litter-scoops",
-                            "query": [
-                                "tba"
-                            ]
+                            "link": "/categories/litter-scoops"
                         },
                         {
                             "id": "6268da42-a997-4b8e-ab17-d0a177e183cc",
                             "name": "litter mats",
-                            "link": "/categories/litter-mats",
-                            "query": [
-                                "tba"
-                            ]
+                            "link": "/categories/litter-mats"
                         },
                         {
                             "id": "6268da42-a997-4b8e-ab17-d0a177e193cc",
                             "name": "Litter Box Liners",
-                            "link": "/categories/litter-liners",
-                            "query": [
-                                "tba"
-                            ]
+                            "link": "/categories/litter-liners"
                         },
                         {
                             "id": "6268da42-a997-4b8e-ab17-d0a177e103cc",
                             "name": "Deodorizers",
-                            "link": "/categories/litter-deodorizers",
-                            "query": [
-                                "tba"
-                            ]
+                            "link": "/categories/litter-deodorizers"
                         },
                         {
                             "id": "6268da42-a997-4b8e-ab17-d0a177e113cc",
                             "name": "Litter Box Furniture",
-                            "link": "/categories/litter-furniture",
-                            "query": [
-                                "tba"
-                            ]
+                            "link": "/categories/litter-furniture"
                         }
                     ]
                 }
@@ -210,66 +139,41 @@
             "id": "6268da42-a997-4b8e-ab17-d0a177e123cc",
             "name": "Toys",
             "link": "/categories/toys",
-            "query": [
-                "category=001"
-            ],
             "children": [
                 {
                     "id": "6268da42-a997-4b8e-ab17-d0a177e133cc",
                     "name": "Chase Toys",
-                    "link": "/categories/chase-toys",
-                    "query": [
-                        "category=001&kind=chase"
-                    ]
+                    "link": "/categories/chase-toys"
                 },
                 {
                     "id": "6268da42-a997-4b8e-ab17-d0a177e243cc",
                     "name": "Wand Toys",
-                    "link": "/categories/wand-toys",
-                    "query": [
-                        "category=001&kind=wand"
-                    ]
+                    "link": "/categories/wand-toys"
                 },
                 {
                     "id": "6268da42-a997-4b8e-ab17-d0a177e343cc",
                     "name": "Track Toys",
-                    "link": "/categories/track-toys",
-                    "query": [
-                        "category=001&kind=track"
-                    ]
+                    "link": "/categories/track-toys"
                 },
                 {
                     "id": "6268da42-a997-4b8e-ab17-d0a177e443cc",
                     "name": "Kickers",
-                    "link": "/categories/kicker-toys",
-                    "query": [
-                        "category=001&kind=kicker"
-                    ]
+                    "link": "/categories/kicker-toys"
                 },
                 {
                     "id": "6268da42-a997-4b8e-ab17-d0a177e543cc",
                     "name": "Electronic Toys",
-                    "link": "/categories/electronic-toys",
-                    "query": [
-                        "category=001&kind=electronic"
-                    ]
+                    "link": "/categories/electronic-toys"
                 },
                 {
                     "id": "6268da42-a997-4b8e-ab17-d0a177e643cc",
                     "name": "Catnip and Silvervine",
-                    "link": "/categories/catnip-silvervine",
-                    "query": [
-                        "category=001&q=catnip",
-                        "category=001&q=silvervine"
-                    ]
+                    "link": "/categories/catnip-silvervine"
                 },
                 {
                     "id": "6268da42-a997-4b8e-ab17-d0a177e743cc",
                     "name": "Exercise Wheels",
-                    "link": "/categories/exercise-wheels",
-                    "query": [
-                        "category=001&kind=exercise%20wheel"
-                    ]
+                    "link": "/categories/exercise-wheels"
                 }
             ]
         },
@@ -277,33 +181,21 @@
             "id": "6268da42-a997-4b8e-ab17-d0a177e843cc",
             "name": "Beds, Trees, & Tunnels",
             "link": "/categories/beds-trees-tunnels",
-            "query": [
-                "tba"
-            ],
             "children": [
                 {
                     "id": "6268da42-a997-4b8e-ab17-d0a177e943cc",
                     "name": "Beds",
-                    "link": "/categories/beds",
-                    "query": [
-                        "tba"
-                    ]
+                    "link": "/categories/beds"
                 },
                 {
                     "id": "6268da42-a997-4b8e-ab17-d0a177e043cc",
                     "name": "Trees",
-                    "link": "/categories/trees",
-                    "query": [
-                        "tba"
-                    ]
+                    "link": "/categories/trees"
                 },
                 {
                     "id": "6268da42-a997-4b8e-ab17-d0a177a143cc",
                     "name": "Tunnels",
-                    "link": "/categories/tunnels",
-                    "query": [
-                        "tba"
-                    ]
+                    "link": "/categories/tunnels"
                 }
             ]
         },
@@ -311,49 +203,31 @@
             "id": "6268da42-a997-4b8e-ab17-d0a177b143cc",
             "name": "Carriers, Harnesses, & Training Supplies",
             "link": "/categories/carriers-harnesses",
-            "query": [
-                "tba"
-            ],
             "children": [
                 {
                     "id": "6268da42-a997-4b8e-ab17-d0a177c143cc",
                     "name": "Carriers",
-                    "link": "/categories/carriers",
-                    "query": [
-                        "tba"
-                    ]
+                    "link": "/categories/carriers"
                 },
                 {
                     "id": "6268da42-a997-4b8e-ab17-d0a177d143cc",
                     "name": "Collars & Tags",
-                    "link": "/categories/collars-tags",
-                    "query": [
-                        "tba"
-                    ]
+                    "link": "/categories/collars-tags"
                 },
                 {
                     "id": "6268da42-a997-4b8e-ab17-d0a178e143cc",
                     "name": "Harnesses",
-                    "link": "/categories/harnesses",
-                    "query": [
-                        "tba"
-                    ]
+                    "link": "/categories/harnesses"
                 },
                 {
                     "id": "6268da42-a997-4b8e-ab17-d0a179e143cc",
                     "name": "Leashes",
-                    "link": "/categories/leashes",
-                    "query": [
-                        "tba"
-                    ]
+                    "link": "/categories/leashes"
                 },
                 {
                     "id": "6268da42-a997-4b8e-ab17-d0a170e143cc",
                     "name": "Training Supplies",
-                    "link": "/categories/training",
-                    "query": [
-                        "tba"
-                    ]
+                    "link": "/categories/training"
                 }
             ]
         },
@@ -365,42 +239,27 @@
                 {
                     "id": "6268da42-a997-4b8e-ab17-d0a172e143cc",
                     "name": "Claw Clippers",
-                    "link": "/categories/nail-clippers",
-                    "query": [
-                        "tba"
-                    ]
+                    "link": "/categories/nail-clippers"
                 },
                 {
                     "id": "6268da42-a997-4b8e-ab17-d0a173e143cc",
                     "name": "Brushes",
-                    "link": "/categories/brushes",
-                    "query": [
-                        "tba"
-                    ]
+                    "link": "/categories/brushes"
                 },
                 {
                     "id": "6268da42-a997-4b8e-ab17-d0a174e143cc",
                     "name": "Flea & Tick",
-                    "link": "/categories/flea-tick",
-                    "query": [
-                        "tba"
-                    ]
+                    "link": "/categories/flea-tick"
                 },
                 {
                     "id": "6268da42-a997-4b8e-ab17-d0a175e143cc",
                     "name": "Pharmacy",
-                    "link": "/categories/pharmacy",
-                    "query": [
-                        "tba"
-                    ]
+                    "link": "/categories/pharmacy"
                 },
                 {
                     "id": "6268da42-a997-4b8e-ab17-d0a176e143cc",
                     "name": "Veterinary Diets",
-                    "link": "/categories/veterinary-diets",
-                    "query": [
-                        "category=011"
-                    ]
+                    "link": "/categories/veterinary-diets"
                 }
             ]
         },
@@ -408,41 +267,26 @@
             "id": "6268da42-a997-4b8e-ab17-d0a187e143cc",
             "name": "Veterinary Diets",
             "link": "/categories/veterinary-diets",
-            "query": [
-                "category=011"
-            ],
             "children": [
                 {
                     "id": "6268da42-a997-4b8e-ab17-d0a197e143cc",
                     "name": "Urinary Care",
-                    "link": "/categories/vet-diet-urinary",
-                    "query": [
-                        "category=011&concern=urinary%20tract%20health"
-                    ]
+                    "link": "/categories/vet-diet-urinary"
                 },
                 {
                     "id": "6268da42-a997-4b8e-ab17-d0a107e143cc",
                     "name": "Weight Management",
-                    "link": "/categories/vet-diet-weight",
-                    "query": [
-                        "category=011&concern=weight%20management"
-                    ]
+                    "link": "/categories/vet-diet-weight"
                 },
                 {
                     "id": "6268da42-a997-4b8e-ab17-d0a117e143cc",
                     "name": "Diabetes",
-                    "link": "/categories/vet-diet-diabetes",
-                    "query": [
-                        "category=011&concern=diabetes"
-                    ]
+                    "link": "/categories/vet-diet-diabetes"
                 },
                 {
                     "id": "6268da42-a997-4b8e-ab17-d0a127e143cc",
                     "name": "Allergies",
-                    "link": "/categories/vet-diet-allergy",
-                    "query": [
-                        "category=011&concern=allergy"
-                    ]
+                    "link": "/categories/vet-diet-allergy"
                 }
             ]
         }
@@ -451,57 +295,99 @@
         {
             "name": "toys",
             "display_name": "Toys",
-            "id": "001"
+            "query": "category=TOYS"
         },
         {
             "name": "food",
             "display_name": "Food",
-            "id": "002"
+            "query": "category=FOOD",
+            "subcategories": [
+                {
+                    "id": "6268da42-a997-4b8e-ab17-d0a177e143ce",
+                    "name": "wet_food",
+                    "display_name": "Wet Food",
+                    "query": "category=FOOD&consistency=wet"
+                },
+                {
+                    "name": "dry_food",
+                    "display_name": "Dry Food",
+                    "query": "category=FOOD&consistency=dry"
+                },
+                {
+                    "name": "veterinary_diets",
+                    "display_name": "Veterinary Diets",
+                    "query": "subcategory=VETERINARY_DIETS"
+                },
+                {
+                    "name": "treats",
+                    "display_name": "Treats",
+                    "query": "subcategory=TREATS"
+                },
+                {
+                    "name": "bowls_fountains",
+                    "display_name": "bowls & fountains",
+                    "query": "subcategory=BOWLSFOUNTAINS"
+                }
+            ]
         },
         {
-            "name": "treats",
-            "display_name": "Treats",
-            "id": "003"
+            "name": "litter_supplies",
+            "display_name": "Litter & Supplies",
+            "id": "LITTER_SUPPLIES",
+            "subcategories": [
+                {
+                    "name": "litter",
+                    "display_name": "Litter",
+                    "query": "subcategory=LITTER"
+                },
+                {
+                    "name": "litter_boxes",
+                    "display_name": "Litter Boxes",
+                    "query": "subcategory=LITTERBOXES"
+                },
+                {
+                    "name": "scoops-and-supplies",
+                    "display_name": "Scoops & Supplies",
+                    "query": "subcategory=ACCESSORIES"
+                }
+            ]
         },
         {
-            "name": "litter",
-            "display_name": "Litter",
-            "id": "004"
-        },
-        {
-            "name": "litter_boxes",
-            "display_name": "Litter Boxes",
-            "id": "005"
-        },
-        {
-            "display_name": "Beds & Tunnels",
-            "name": "beds_tunnels",
-            "id": "006"
-        },
-        {
-            "display_name": "Trees & Furniture",
-            "name": "trees_furniture",
-            "id": "007"
-        },
-        {
-            "display_name": "bowls & fountains",
-            "name": "bowls_fountains",
-            "id": "008"
+            "display_name": "Beds, Trees, & Tunnels",
+            "name": "beds_trees_tunnels",
+            "query": "subcategory=BEDS_TREES_TUNNELS",
+            "subcategories": [
+                {
+                    "display_name": "Beds",
+                    "name": "beds",
+                    "query": "subcategory=BEDS"
+                },
+                {
+                    "display_name": "Tunnels",
+                    "name": "tunnels",
+                    "query": "subcategory=TUNNELS"
+                },
+                {
+                    "display_name": "Trees",
+                    "name": "trees",
+                    "query": "subcategory=TREES"
+                }
+            ]
         },
         {
             "display_name": "carriers & harnesses",
             "name": "carriers_harnesses",
-            "id": "009"
+            "query": "category=CARRIERS_HARNESSES"
         },
         {
             "display_name": "health & grooming",
             "name": "health_grooming",
-            "id": "010"
+            "query": "category=HEALTH_GROOMING"
         },
         {
             "display_name": "Veterinary Diets",
             "name": "veterinary_diets",
-            "id": "011"
+            "id": "subcategory=VETERINARY_DIETS"
         }
     ],
     "products": [
@@ -510,7 +396,7 @@
             "name": "Sparkle ball 2",
             "description": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Proin risus.",
             "price": "$7.91",
-            "category": "001",
+            "category": "TOYS",
             "brand": "Toy Brand B",
             "kind": "chase",
             "images": [
@@ -525,7 +411,7 @@
             "name": "Sparkle Ball 3",
             "description": "Aenean sit amet justo. Morbi ut odio. Cras mi pede, malesuada in, imperdiet et, commodo vulputate, justo. In blandit ultrices enim.",
             "price": "$5.23",
-            "category": "001",
+            "category": "TOYS",
             "brand": "Toy Brand B",
             "kind": "chase",
             "images": [
@@ -540,7 +426,7 @@
             "name": "Crinkle balls 2",
             "description": "Curabitur in libero ut massa volutpat convallis. Morbi odio odio, elementum eu, interdum eu, tincidunt in, leo. Maecenas pulvinar lobortis est.",
             "price": "$0.95",
-            "category": "001",
+            "category": "TOYS",
             "brand": "Toy Brand B",
             "kind": "chase",
             "images": [
@@ -555,7 +441,7 @@
             "name": "Lattice ball chase toy 2",
             "description": "Proin at turpis a pede posuere nonummy. Integer non velit. Donec diam neque, vestibulum eget, vulputate ut, ultrices vel, augue. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec pharetra, magna vestibulum aliquet ultrices, erat tortor sollicitudin mi, sit amet lobortis sapien sapien non mi. Integer ac neque. Duis bibendum.",
             "price": "$8.16",
-            "category": "001",
+            "category": "TOYS",
             "brand": "Toy Brand A",
             "kind": "chase",
             "images": [
@@ -570,7 +456,7 @@
             "name": "Sparkle Ball 1",
             "description": "Maecenas rhoncus aliquam lacus. Morbi quis tortor id nulla ultrices aliquet. Maecenas leo odio, condimentum id, luctus nec, molestie sed, justo. Pellentesque viverra pede ac diam. Cras pellentesque volutpat dui. Maecenas tristique, est et tempus semper, est quam pharetra magna, ac consequat metus sapien ut nunc.",
             "price": "$3.15",
-            "category": "001",
+            "category": "TOYS",
             "brand": "Toy Brand A",
             "kind": "chase",
             "images": [
@@ -585,7 +471,7 @@
             "name": "Puffball chase toy",
             "description": "Donec dapibus. Duis at velit eu est congue elementum. In hac habitasse platea dictumst. Morbi vestibulum, velit id pretium iaculis, diam erat fermentum justo, nec condimentum neque sapien placerat ante. Nulla justo. Aliquam quis turpis eget elit sodales scelerisque. Mauris sit amet eros. Suspendisse accumsan tortor quis turpis. Sed ante. Vivamus tortor.",
             "price": "$0.72",
-            "category": "001",
+            "category": "TOYS",
             "brand": "Toy Brand A",
             "kind": "chase",
             "images": [
@@ -600,7 +486,7 @@
             "name": "Puffball chase toy 2",
             "description": "Maecenas ut massa quis augue luctus tincidunt. Nulla mollis molestie lorem.",
             "price": "$0.36",
-            "category": "001",
+            "category": "TOYS",
             "brand": "Toy Brand A",
             "kind": "chase",
             "images": [
@@ -615,7 +501,7 @@
             "name": "Cat Wand toy 1",
             "description": "Aenean lectus. Pellentesque eget nunc. Donec quis orci eget orci vehicula condimentum. Curabitur in libero ut massa volutpat convallis. Morbi odio odio, elementum eu, interdum eu, tincidunt in, leo. Maecenas pulvinar lobortis est.",
             "price": "$1.24",
-            "category": "001",
+            "category": "TOYS",
             "brand": "Toy Brand A",
             "kind": "wand",
             "images": [
@@ -630,7 +516,7 @@
             "name": "Fuzzy Worm Cat wand toy",
             "description": "Nam ultrices, libero non mattis pulvinar, nulla pede ullamcorper augue, a suscipit nulla elit ac nulla. Sed vel enim sit amet nunc viverra dapibus.",
             "price": "$4.42",
-            "category": "001",
+            "category": "TOYS",
             "brand": "Toy Brand A",
             "kind": "wand",
             "images": [
@@ -645,7 +531,7 @@
             "name": "Cat Track tower 1",
             "description": "In tempor, turpis nec euismod scelerisque, quam turpis adipiscing lorem, vitae mattis nibh ligula nec sem. Duis aliquam convallis nunc. Proin at turpis a pede posuere nonummy. Integer non velit. Donec diam neque, vestibulum eget, vulputate ut, ultrices vel, augue.",
             "price": "$7.06",
-            "category": "001",
+            "category": "TOYS",
             "brand": "Toy Brand A",
             "kind": "track",
             "images": [
@@ -660,7 +546,7 @@
             "name": "Cat track chaser 1",
             "description": "Nulla facilisi. Cras non velit nec nisi vulputate nonummy. Maecenas tincidunt lacus at velit.",
             "price": "$3.56",
-            "category": "001",
+            "category": "TOYS",
             "brand": "Toy Brand A",
             "kind": "track",
             "images": [
@@ -675,7 +561,7 @@
             "name": "catnip squirrel toy 1",
             "description": "Curabitur at ipsum ac tellus semper interdum. Mauris ullamcorper purus sit amet nulla. Quisque arcu libero, rutrum ac, lobortis vel, dapibus at, diam.",
             "price": "$6.77",
-            "category": "001",
+            "category": "TOYS",
             "brand": "Toy Brand A",
             "kind": "catnip",
             "images": [
@@ -690,7 +576,7 @@
             "name": "Catnip Sushi roll toy",
             "description": "Vivamus in felis eu sapien cursus vestibulum. Proin eu mi. Nulla ac enim. In tempor, turpis nec euismod scelerisque, quam turpis adipiscing lorem, vitae mattis nibh ligula nec sem. Duis aliquam convallis nunc. Proin at turpis a pede posuere nonummy. Integer non velit. Donec diam neque, vestibulum eget, vulputate ut, ultrices vel, augue.",
             "price": "$5.92",
-            "category": "001",
+            "category": "TOYS",
             "brand": "Toy Brand A",
             "kind": "chase",
             "images": [
@@ -705,7 +591,7 @@
             "name": "Kicker toy",
             "description": "Nullam varius. Nulla facilisi. Cras non velit nec nisi vulputate nonummy. Maecenas tincidunt lacus at velit. Vivamus vel nulla eget eros elementum pellentesque. Quisque porta volutpat erat. Quisque erat eros, viverra eget, congue eget, semper rutrum, nulla. Nunc purus. Phasellus in felis. Donec semper sapien a libero.",
             "price": "$2.70",
-            "category": "001",
+            "category": "TOYS",
             "brand": "Toy Brand A",
             "kind": "kicker",
             "images": [
@@ -720,7 +606,7 @@
             "name": "retro print wand toy",
             "description": "Nam dui. Proin leo odio, porttitor id, consequat in, consequat ut, nulla. Sed accumsan felis.",
             "price": "$2.30",
-            "category": "001",
+            "category": "TOYS",
             "brand": "Toy Brand A",
             "kind": "wand",
             "images": [
@@ -735,7 +621,7 @@
             "name": "crinkle ball toys",
             "description": "Maecenas tristique, est et tempus semper, est quam pharetra magna, ac consequat metus sapien ut nunc. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Mauris viverra diam vitae quam. Suspendisse potenti. Nullam porttitor lacus at turpis. Donec posuere metus vitae ipsum. Aliquam non mauris. Morbi non lectus.",
             "price": "$9.21",
-            "category": "001",
+            "category": "TOYS",
             "brand": "Toy Brand A",
             "kind": "chase",
             "images": [
@@ -750,7 +636,7 @@
             "name": "Crinkle toy 1",
             "description": "Aliquam erat volutpat.",
             "price": "$4.43",
-            "category": "001",
+            "category": "TOYS",
             "brand": "Toy Brand A",
             "kind": "chase",
             "images": [
@@ -765,7 +651,7 @@
             "name": "Kicker toy animal",
             "description": "Morbi a ipsum. Integer a nibh. In quis justo. Maecenas rhoncus aliquam lacus.",
             "price": "$6.10",
-            "category": "001",
+            "category": "TOYS",
             "brand": "Toy Brand A",
             "kind": "kicker",
             "images": [
@@ -780,7 +666,7 @@
             "name": "Kicker toy burrito",
             "description": "Curabitur gravida nisi at nibh. In hac habitasse platea dictumst. Aliquam augue quam, sollicitudin vitae, consectetuer eget, rutrum at, lorem. Integer tincidunt ante vel ipsum. Praesent blandit lacinia erat. Vestibulum sed magna at nunc commodo placerat. Praesent blandit.",
             "price": "$4.42",
-            "category": "001",
+            "category": "TOYS",
             "brand": "Toy Brand B",
             "kind": "kicker",
             "images": [
@@ -795,7 +681,7 @@
             "name": "Catnip Banana",
             "description": "In eleifend quam a odio. In hac habitasse platea dictumst. Maecenas ut massa quis augue luctus tincidunt.",
             "price": "$5.34",
-            "category": "001",
+            "category": "TOYS",
             "brand": "Toy Brand B",
             "kind": "catnip",
             "images": [
@@ -810,7 +696,7 @@
             "name": "Kicker toy",
             "descripton": "Nulla nisl. Nunc nisl. Duis bibendum, felis sed interdum venenatis, turpis enim blandit mi, in porttitor pede justo eu massa. Donec dapibus. Duis at velit eu est congue elementum. In hac habitasse platea dictumst. Morbi vestibulum, velit id pretium iaculis, diam erat fermentum justo, nec condimentum neque sapien placerat ante.",
             "price": "$5.73",
-            "category": "001",
+            "category": "TOYS",
             "brand": "Toy Brand C",
             "kind": "kicker",
             "images": [
@@ -825,7 +711,7 @@
             "name": "Feather Wand Toy 2",
             "description": "Pellentesque at nulla. Suspendisse potenti. Cras in purus eu magna vulputate luctus. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vivamus vestibulum sagittis sapien. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Etiam vel augue. Vestibulum rutrum rutrum neque. Aenean auctor gravida sem.",
             "price": "$9.60",
-            "category": "001",
+            "category": "TOYS",
             "brand": "Toy Brand C",
             "kind": "wand",
             "images": [
@@ -840,7 +726,7 @@
             "name": "Fuzzy Worm wand toy",
             "description": "Morbi vestibulum, velit id pretium iaculis, diam erat fermentum justo, nec condimentum neque sapien placerat ante. Nulla justo. Aliquam quis turpis eget elit sodales scelerisque. Mauris sit amet eros. Suspendisse accumsan tortor quis turpis. Sed ante. Vivamus tortor.",
             "price": "$9.87",
-            "category": "001",
+            "category": "TOYS",
             "brand": "Toy Brand C",
             "kind": "wand",
             "images": [
@@ -855,7 +741,7 @@
             "name": "Treat Toy 1",
             "description": "Aliquam quis turpis eget elit sodales scelerisque. Mauris sit amet eros. Suspendisse accumsan tortor quis turpis. Sed ante. Vivamus tortor. Duis mattis egestas metus. Aenean fermentum. Donec ut mauris eget massa tempor convallis.",
             "price": "$2.76",
-            "category": "001",
+            "category": "TOYS",
             "brand": "Toy Brand C",
             "kind": "chase",
             "images": [
@@ -870,7 +756,7 @@
             "name": "Sparkle Ball toy 2",
             "description": "Nunc rhoncus dui vel sem. Sed sagittis. Nam congue, risus semper porta volutpat, quam pede lobortis ligula, sit amet eleifend pede libero quis orci. Nullam molestie nibh in lectus. Pellentesque at nulla. Suspendisse potenti. Cras in purus eu magna vulputate luctus. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.",
             "price": "$8.68",
-            "category": "001",
+            "category": "TOYS",
             "brand": "Toy Brand C",
             "kind": "chase",
             "images": [
@@ -885,7 +771,7 @@
             "name": "Treat toy 2",
             "description": "Proin eu mi. Nulla ac enim. In tempor, turpis nec euismod scelerisque, quam turpis adipiscing lorem, vitae mattis nibh ligula nec sem. Duis aliquam convallis nunc. Proin at turpis a pede posuere nonummy. Integer non velit. Donec diam neque, vestibulum eget, vulputate ut, ultrices vel, augue.",
             "price": "$7.71",
-            "category": "001",
+            "category": "TOYS",
             "brand": "Toy Brand C",
             "kind": "chase",
             "images": [
@@ -900,7 +786,7 @@
             "name": "Treat toy 3",
             "description": "Curabitur convallis. Duis consequat dui nec nisi volutpat eleifend. Donec ut dolor.",
             "price": "$6.68",
-            "category": "001",
+            "category": "TOYS",
             "brand": "Toy Brand C",
             "kind": "chase",
             "images": [
@@ -915,7 +801,7 @@
             "name": "STreat Toy 4",
             "description": "Donec vitae nisi. Nam ultrices, libero non mattis pulvinar, nulla pede ullamcorper augue, a suscipit nulla elit ac nulla. Sed vel enim sit amet nunc viverra dapibus. Nulla suscipit ligula in lacus. Curabitur at ipsum ac tellus semper interdum.",
             "price": "$2.73",
-            "category": "001",
+            "category": "TOYS",
             "brand": "Toy Brand C",
             "kind": "chase",
             "images": [
@@ -930,7 +816,7 @@
             "name": "Tower Toy",
             "description": "Etiam justo. Etiam pretium iaculis justo. In hac habitasse platea dictumst. Etiam faucibus cursus urna. Ut tellus. Nulla ut erat id mauris vulputate elementum. Nullam varius. Nulla facilisi. Cras non velit nec nisi vulputate nonummy. Maecenas tincidunt lacus at velit.",
             "price": "$7.51",
-            "category": "001",
+            "category": "TOYS",
             "brand": "Toy Brand C",
             "kind": "chase",
             "images": [
@@ -945,7 +831,7 @@
             "name": "catnip Squirrel Toy 2",
             "description": "Duis at velit eu est congue elementum. In hac habitasse platea dictumst. Morbi vestibulum, velit id pretium iaculis, diam erat fermentum justo, nec condimentum neque sapien placerat ante. Nulla justo. Aliquam quis turpis eget elit sodales scelerisque. Mauris sit amet eros.",
             "price": "$1.05",
-            "category": "001",
+            "category": "TOYS",
             "brand": "Toy Brand C",
             "kind": "chase",
             "images": [
@@ -960,7 +846,7 @@
             "name": "Squeaky Bird Toy",
             "description": "Integer a nibh. In quis justo. Maecenas rhoncus aliquam lacus. Morbi quis tortor id nulla ultrices aliquet. Maecenas leo odio, condimentum id, luctus nec, molestie sed, justo. Pellentesque viverra pede ac diam. Cras pellentesque volutpat dui.",
             "price": "$7.66",
-            "category": "001",
+            "category": "TOYS",
             "brand": "Toy Brand C",
             "kind": "chase",
             "images": [
@@ -975,7 +861,7 @@
             "name": "Catnip Pickle",
             "description": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Proin risus. Praesent lectus. Vestibulum quam sapien, varius ut, blandit non, interdum in, ante.",
             "price": "$5.47",
-            "category": "001",
+            "category": "TOYS",
             "brand": "Toy Brand C",
             "kind": "catnip",
             "images": [
@@ -990,7 +876,7 @@
             "name": "treat toy",
             "description": "In eleifend quam a odio. In hac habitasse platea dictumst. Maecenas ut massa quis augue luctus tincidunt. Nulla mollis molestie lorem.",
             "price": "$5.20",
-            "category": "001",
+            "category": "TOYS",
             "kind": "electronic",
             "images": [
                 "/images/products/toy-treat-002.jpg",
@@ -1004,7 +890,7 @@
             "name": "treat toy",
             "description": "Nulla justo. Aliquam quis turpis eget elit sodales scelerisque. Mauris sit amet eros. Suspendisse accumsan tortor quis turpis. Sed ante. Vivamus tortor. Duis mattis egestas metus. Aenean fermentum. Donec ut mauris eget massa tempor convallis. Nulla neque libero, convallis eget, eleifend luctus, ultricies eu, nibh.",
             "price": "$9.01",
-            "category": "001",
+            "category": "TOYS",
             "kind": "electronic",
             "images": [
                 "/images/products/toy-treat-004.jpg",
@@ -1018,7 +904,7 @@
             "name": "Bird toy",
             "description": "Fusce lacus purus, aliquet at, feugiat non, pretium quis, lectus. Suspendisse potenti. In eleifend quam a odio. In hac habitasse platea dictumst. Maecenas ut massa quis augue luctus tincidunt. Nulla mollis molestie lorem. Quisque ut erat.",
             "price": "$9.56",
-            "category": "001",
+            "category": "TOYS",
             "brand": "Toy Brand C",
             "kind": "kicker",
             "images": [
@@ -1033,7 +919,7 @@
             "name": "Squirrel toy",
             "description": "Sed accumsan felis. Ut at dolor quis odio consequat varius. Integer ac leo. Pellentesque ultrices mattis odio. Donec vitae nisi. Nam ultrices, libero non mattis pulvinar, nulla pede ullamcorper augue, a suscipit nulla elit ac nulla. Sed vel enim sit amet nunc viverra dapibus. Nulla suscipit ligula in lacus.",
             "price": "$1.57",
-            "category": "001",
+            "category": "TOYS",
             "kind": "electronic",
             "brand": "Toy Brand C",
             "images": [
@@ -1048,7 +934,7 @@
             "name": "Foam ball toy 1",
             "description": "Integer ac neque. Duis bibendum. Morbi non quam nec dui luctus rutrum. Nulla tellus. In sagittis dui vel nisl. Duis ac nibh. Fusce lacus purus, aliquet at, feugiat non, pretium quis, lectus. Suspendisse potenti. In eleifend quam a odio.",
             "price": "$8.48",
-            "category": "001",
+            "category": "TOYS",
             "kind": "chase",
             "images": [
                 "/images/products/toy-foamball-001.jpg",
@@ -1062,7 +948,7 @@
             "name": "Foam Ball toy 2",
             "description": "In est risus, auctor sed, tristique in, tempus sit amet, sem. Fusce consequat. Nulla nisl. Nunc nisl. Duis bibendum, felis sed interdum venenatis, turpis enim blandit mi, in porttitor pede justo eu massa. Donec dapibus. Duis at velit eu est congue elementum.",
             "price": "$4.06",
-            "category": "001",
+            "category": "TOYS",
             "kind": "chase",
             "images": [
                 "/images/products/toy-foamball-001.jpg",
@@ -1076,7 +962,7 @@
             "name": "cat track tower 2",
             "description": "Praesent blandit lacinia erat. Vestibulum sed magna at nunc commodo placerat. Praesent blandit. Nam nulla. Integer pede justo, lacinia eget, tincidunt eget, tempus vel, pede. Morbi porttitor lorem id ligula.",
             "price": "$5.60",
-            "category": "001",
+            "category": "TOYS",
             "kind": "track",
             "images": [
                 "/images/products/toy-tracktower-002.jpg",
@@ -1090,7 +976,7 @@
             "name": "Kicker toy",
             "description": "Proin risus. Praesent lectus. Vestibulum quam sapien, varius ut, blandit non, interdum in, ante. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Duis faucibus accumsan odio. Curabitur convallis. Duis consequat dui nec nisi volutpat eleifend.",
             "price": "$6.43",
-            "category": "001",
+            "category": "TOYS",
             "brand": "Toy Brand B",
             "images": [
                 "/images/products/toy-kicker-001.jpg",
@@ -1104,7 +990,7 @@
             "name": "Toy Springs",
             "description": "Integer ac leo. Pellentesque ultrices mattis odio. Donec vitae nisi. Nam ultrices, libero non mattis pulvinar, nulla pede ullamcorper augue, a suscipit nulla elit ac nulla. Sed vel enim sit amet nunc viverra dapibus. Nulla suscipit ligula in lacus. Curabitur at ipsum ac tellus semper interdum. Mauris ullamcorper purus sit amet nulla.",
             "price": "$9.73",
-            "category": "001",
+            "category": "TOYS",
             "brand": "Toy Brand B",
             "kind": "chaser",
             "images": [
@@ -1119,7 +1005,7 @@
             "name": "Toy Springs 2",
             "description": "Integer ac leo. Pellentesque ultrices mattis odio. Donec vitae nisi. Nam ultrices, libero non mattis pulvinar, nulla pede ullamcorper augue, a suscipit nulla elit ac nulla. Sed vel enim sit amet nunc viverra dapibus. Nulla suscipit ligula in lacus. Curabitur at ipsum ac tellus semper interdum. Mauris ullamcorper purus sit amet nulla.",
             "price": "$9.73",
-            "category": "001",
+            "category": "TOYS",
             "brand": "Toy Brand A",
             "kind": "chaser",
             "images": [
@@ -1134,7 +1020,7 @@
             "name": "Bird Wand toy",
             "description": "Nunc purus. Phasellus in felis. Donec semper sapien a libero. Nam dui.",
             "price": "$5.58",
-            "category": "001",
+            "category": "TOYS",
             "brand": "Toy Brand B",
             "kind": "wand",
             "images": [
@@ -1149,7 +1035,7 @@
             "name": "Silvervine Kicker",
             "description": "Suspendisse potenti. Nullam porttitor lacus at turpis. Donec posuere metus vitae ipsum. Aliquam non mauris. Morbi non lectus. Aliquam sit amet diam in magna bibendum imperdiet.",
             "price": "$6.94",
-            "category": "001",
+            "category": "TOYS",
             "brand": "Toy Brand B",
             "kind": "kicker",
             "images": [
@@ -1164,7 +1050,7 @@
             "name": "Sushi toy",
             "description": "Fusce consequat. Nulla nisl. Nunc nisl. Duis bibendum, felis sed interdum venenatis, turpis enim blandit mi, in porttitor pede justo eu massa. Donec dapibus. Duis at velit eu est congue elementum. In hac habitasse platea dictumst. Morbi vestibulum, velit id pretium iaculis, diam erat fermentum justo, nec condimentum neque sapien placerat ante. Nulla justo.",
             "price": "$1.27",
-            "category": "001",
+            "category": "TOYS",
             "brand": "Toy Brand B",
             "kind": "chase",
             "images": [
@@ -1179,7 +1065,7 @@
             "name": "Mouse toy 2",
             "description": "Sed sagittis. Nam congue, risus semper porta volutpat, quam pede lobortis ligula, sit amet eleifend pede libero quis orci. Nullam molestie nibh in lectus. Pellentesque at nulla. Suspendisse potenti. Cras in purus eu magna vulputate luctus.",
             "price": "$6.33",
-            "category": "001",
+            "category": "TOYS",
             "brand": "Toy Brand B",
             "kind": "chase",
             "images": [
@@ -1194,7 +1080,7 @@
             "name": "Mouse toy 1",
             "description": "Integer aliquet, massa id lobortis convallis, tortor risus dapibus augue, vel accumsan tellus nisi eu orci. Mauris lacinia sapien quis libero. Nullam sit amet turpis elementum ligula vehicula consequat. Morbi a ipsum. Integer a nibh. In quis justo. Maecenas rhoncus aliquam lacus.",
             "price": "$2.23",
-            "category": "001",
+            "category": "TOYS",
             "brand": "Toy Brand C",
             "kind": "chase",
             "images": [
@@ -1209,7 +1095,7 @@
             "name": "Lattice ball toy",
             "description": "Duis mattis egestas metus. Aenean fermentum. Donec ut mauris eget massa tempor convallis. Nulla neque libero, convallis eget, eleifend luctus, ultricies eu, nibh.",
             "price": "$3.91",
-            "category": "001",
+            "category": "TOYS",
             "brand": "Toy Brand B",
             "kind": "chase",
             "images": [
@@ -1224,7 +1110,7 @@
             "name": "Exercise Wheel",
             "description": "Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec pharetra, magna vestibulum aliquet ultrices, erat tortor sollicitudin mi, sit amet lobortis sapien sapien non mi. Integer ac neque. Duis bibendum. Morbi non quam nec dui luctus rutrum. Nulla tellus. In sagittis dui vel nisl. Duis ac nibh. Fusce lacus purus, aliquet at, feugiat non, pretium quis, lectus.",
             "price": "$1.79",
-            "category": "001",
+            "category": "TOYS",
             "brand": "Toy Furniture Brand A",
             "kind": "exercise wheel",
             "images": [
@@ -1239,7 +1125,7 @@
             "name": "Exercise Wheel wood",
             "description": "Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Etiam vel augue. Vestibulum rutrum rutrum neque. Aenean auctor gravida sem. Praesent id massa id nisl venenatis lacinia. Aenean sit amet justo. Morbi ut odio. Cras mi pede, malesuada in, imperdiet et, commodo vulputate, justo. In blandit ultrices enim. Lorem ipsum dolor sit amet, consectetuer adipiscing elit.",
             "price": "$5.53",
-            "category": "001",
+            "category": "TOYS",
             "brand": "Toy Brand A",
             "kind": "exercise wheel",
             "images": [
@@ -1254,7 +1140,7 @@
             "name": "Floppy fish",
             "description": "Nullam porttitor lacus at turpis. Donec posuere metus vitae ipsum. Aliquam non mauris. Morbi non lectus. Aliquam sit amet diam in magna bibendum imperdiet. Nullam orci pede, venenatis non, sodales sed, tincidunt eu, felis. Fusce posuere felis sed lacus. Morbi sem mauris, laoreet ut, rhoncus aliquet, pulvinar sed, nisl. Nunc rhoncus dui vel sem. Sed sagittis.",
             "price": "$5.17",
-            "category": "001",
+            "category": "TOYS",
             "brand": "Toy Brand C",
             "kind": "electronic",
             "images": [
@@ -1269,7 +1155,7 @@
             "name": "Toy Wand animal",
             "description": "Etiam justo. Etiam pretium iaculis justo. In hac habitasse platea dictumst. Etiam faucibus cursus urna. Ut tellus. Nulla ut erat id mauris vulputate elementum. Nullam varius. Nulla facilisi.",
             "price": "$3.26",
-            "category": "002",
+            "category": "TOYS",
             "brand": "Toy Brand C",
             "kind": "wand",
             "images": [
@@ -1284,7 +1170,7 @@
             "name": "Fox Kicker toy",
             "description": "Mauris sit amet eros. Suspendisse accumsan tortor quis turpis. Sed ante. Vivamus tortor.",
             "price": "$6.31",
-            "category": "001",
+            "category": "TOYS",
             "brand": "Toy Brand C",
             "kind": "kicker",
             "images": [
@@ -1299,7 +1185,7 @@
             "name": "Patterned Wand toy",
             "description": "Etiam justo. Etiam pretium iaculis justo. In hac habitasse platea dictumst. Etiam faucibus cursus urna. Ut tellus. Nulla ut erat id mauris vulputate elementum. Nullam varius. Nulla facilisi.",
             "price": "$3.26",
-            "category": "002",
+            "category": "TOYS",
             "brand": "Toy Brand C",
             "kind": "wand",
             "images": [
@@ -1314,7 +1200,8 @@
             "name": "Brand E Veterinary Food Urinary Tract health",
             "description": "Suspendisse ornare consequat lectus. In est risus, auctor sed, tristique in, tempus sit amet, sem. Fusce consequat. Nulla nisl. Nunc nisl. Duis bibendum, felis sed interdum venenatis, turpis enim blandit mi, in porttitor pede justo eu massa. Donec dapibus. Duis at velit eu est congue elementum. In hac habitasse platea dictumst. Morbi vestibulum, velit id pretium iaculis, diam erat fermentum justo, nec condimentum neque sapien placerat ante.",
             "price": "$9.31",
-            "category": "011",
+            "category": "FOOD",
+            "subcategory": "VETERINARY_DIETS",
             "brand": "Food Brand E",
             "concern": "urinary tract health",
             "consistency": "wet",
@@ -1330,8 +1217,8 @@
             "name": "Brand F Veterinary Food Urinary Tract health",
             "description": "Morbi a ipsum. Integer a nibh. In quis justo.",
             "price": "$0.19",
-            "category": "011",
-            "subcategory": "6268da42-a997-4b8e-ab17-d0a177e143cc",
+            "category": "FOOD",
+            "subcategory": "VETERINARY_DIETS",
             "concern": "veterinary",
             "consistency": "wet",
             "images": [
@@ -1346,7 +1233,8 @@
             "name": "Brand F Veterinary Diet Diabetic",
             "description": "Cras pellentesque volutpat dui. Maecenas tristique, est et tempus semper, est quam pharetra magna, ac consequat metus sapien ut nunc. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Mauris viverra diam vitae quam.",
             "price": "$3.86",
-            "category": "011",
+            "category": "FOOD",
+            "subcategory": "VETERINARY_DIETS",
             "brand": "Food Brand F",
             "concern": "diabetes",
             "consistency": "dry",
@@ -1362,7 +1250,8 @@
             "name": "Brand E Veterinary Diet Diabetic",
             "description": "Vestibulum quam sapien, varius ut, blandit non, interdum in, ante. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Duis faucibus accumsan odio. Curabitur convallis. Duis consequat dui nec nisi volutpat eleifend. Donec ut dolor. Morbi vel lectus in quam fringilla rhoncus. Mauris enim leo, rhoncus sed, vestibulum sit amet, cursus id, turpis. Integer aliquet, massa id lobortis convallis, tortor risus dapibus augue, vel accumsan tellus nisi eu orci.",
             "price": "$7.00",
-            "category": "011",
+            "category": "FOOD",
+            "subcategory": "VETERINARY_DIETS",
             "brand": "Food Brand E",
             "concern": "diabetes",
             "consistency": "dry",
@@ -1378,7 +1267,8 @@
             "name": "Brand E Veterinary Diet Food Healthy Weight",
             "description": "Nullam molestie nibh in lectus. Pellentesque at nulla. Suspendisse potenti. Cras in purus eu magna vulputate luctus. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vivamus vestibulum sagittis sapien. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.",
             "price": "$5.52",
-            "category": "011",
+            "category": "FOOD",
+            "subcategory": "VETERINARY_DIETS",
             "brand": "Food Brand E",
             "concern": "weight management",
             "consistency": "dry",
@@ -1394,7 +1284,8 @@
             "name": "Brand F Veterinary Diet Food Healthy Weight",
             "description": "Proin leo odio, porttitor id, consequat in, consequat ut, nulla. Sed accumsan felis. Ut at dolor quis odio consequat varius. Integer ac leo.",
             "price": "$7.60",
-            "category": "011",
+            "category": "FOOD",
+            "subcategory": "VETERINARY_DIETS",
             "concern": "weight management",
             "consistency": "dry",
             "brand": "Food Brand F",
@@ -1410,7 +1301,8 @@
             "name": "Brand F Veterinary Diet Food Healthy Weight",
             "description": "Duis ac nibh. Fusce lacus purus, aliquet at, feugiat non, pretium quis, lectus. Suspendisse potenti.",
             "price": "$5.14",
-            "category": "011",
+            "category": "FOOD",
+            "subcategory": "VETERINARY_DIETS",
             "concern": "weight management",
             "consistency": "dry",
             "brand": "Food Brand F",
@@ -1426,7 +1318,8 @@
             "name": "Brand E Veterinary Diet Food Allergy",
             "description": "In blandit ultrices enim. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Proin interdum mauris non ligula pellentesque ultrices. Phasellus id sapien in sapien iaculis congue. Vivamus metus arcu, adipiscing molestie, hendrerit at, vulputate vitae, nisl. Aenean lectus. Pellentesque eget nunc. Donec quis orci eget orci vehicula condimentum.",
             "price": "$9.31",
-            "category": "011",
+            "category": "FOOD",
+            "subcategory": "VETERINARY_DIETS",
             "brand": "Food Brand E",
             "concern": "allergy",
             "consistency": "dry",
@@ -1442,7 +1335,8 @@
             "name": "Brand F Veterinary Diet Food Allergy",
             "description": "Nullam molestie nibh in lectus.",
             "price": "$0.42",
-            "category": "011",
+            "category": "FOOD",
+            "subcategory": "VETERINARY_DIETS",
             "concern": "allergy",
             "consistency": "dry",
             "brand": "Food Brand F",
@@ -1458,7 +1352,8 @@
             "name": "Brand E Veterinary Diet Sensitive Digestion",
             "description": "Praesent blandit lacinia erat. Vestibulum sed magna at nunc commodo placerat. Praesent blandit. Nam nulla. Integer pede justo, lacinia eget, tincidunt eget, tempus vel, pede.",
             "price": "$2.05",
-            "category": "011",
+            "category": "FOOD",
+            "subcategory": "VETERINARY_DIETS",
             "brand": "Food Brand E",
             "concern": "digestive health",
             "consistency": "dry",
@@ -1474,7 +1369,8 @@
             "name": "Brand F Veterinary Diet Sensitive Digestion",
             "description": "Donec semper sapien a libero. Nam dui. Proin leo odio, porttitor id, consequat in, consequat ut, nulla.",
             "price": "$2.31",
-            "category": "011",
+            "category": "FOOD",
+            "subcategory": "VETERINARY_DIETS",
             "brand": "Food Brand F",
             "concern": "digestive health",
             "consistency": "dry",
@@ -1490,7 +1386,8 @@
             "name": "Brand G Wet Food Chicken",
             "description": "Nullam orci pede, venenatis non, sodales sed, tincidunt eu, felis. Fusce posuere felis sed lacus. Morbi sem mauris, laoreet ut, rhoncus aliquet, pulvinar sed, nisl.",
             "price": "$2.00",
-            "category": "002",
+            "category": "FOOD",
+            "subcategory": "FOOD",
             "brand": "Food Brand G",
             "consistency": "wet",
             "flavor": "chicken",
@@ -1506,7 +1403,8 @@
             "name": "Brand G Wet Food Beef",
             "description": "Mauris sit amet eros. Suspendisse accumsan tortor quis turpis. Sed ante. Vivamus tortor. Duis mattis egestas metus. Aenean fermentum. Donec ut mauris eget massa tempor convallis.",
             "price": "$5.33",
-            "category": "002",
+            "category": "FOOD",
+            "subcategory": "FOOD",
             "brand": "Food Brand G",
             "consistency": "wet",
             "flavor": "beef",
@@ -1522,7 +1420,8 @@
             "name": "Brand G Wet Food Tuna",
             "description": "Maecenas ut massa quis augue luctus tincidunt. Nulla mollis molestie lorem. Quisque ut erat.",
             "price": "$7.33",
-            "category": "002",
+            "category": "FOOD",
+            "subcategory": "FOOD",
             "brand": "Food Brand G",
             "consistency": "wet",
             "flavor": "tuna",
@@ -1538,7 +1437,8 @@
             "name": "Brand G Wet Food Variety Pack Poultry",
             "description": "Etiam vel augue. Vestibulum rutrum rutrum neque. Aenean auctor gravida sem. Praesent id massa id nisl venenatis lacinia. Aenean sit amet justo. Morbi ut odio. Cras mi pede, malesuada in, imperdiet et, commodo vulputate, justo. In blandit ultrices enim. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Proin interdum mauris non ligula pellentesque ultrices.",
             "price": "$0.57",
-            "category": "002",
+            "category": "FOOD",
+            "subcategory": "FOOD",
             "brand": "Food Brand G",
             "consistency": "wet",
             "flavor": "variety",
@@ -1554,7 +1454,8 @@
             "name": "Brand G Wet Food Variety Pack Seafood",
             "description": "Suspendisse ornare consequat lectus. In est risus, auctor sed, tristique in, tempus sit amet, sem. Fusce consequat. Nulla nisl. Nunc nisl.",
             "price": "$9.09",
-            "category": "002",
+            "category": "FOOD",
+            "subcategory": "FOOD",
             "brand": "Food Brand G",
             "consistency": "wet",
             "flavor": "variety",
@@ -1570,7 +1471,8 @@
             "name": "Brand G Dry Food Small",
             "description": "Aenean auctor gravida sem. Praesent id massa id nisl venenatis lacinia. Aenean sit amet justo. Morbi ut odio. Cras mi pede, malesuada in, imperdiet et, commodo vulputate, justo. In blandit ultrices enim. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Proin interdum mauris non ligula pellentesque ultrices. Phasellus id sapien in sapien iaculis congue. Vivamus metus arcu, adipiscing molestie, hendrerit at, vulputate vitae, nisl.",
             "price": "$3.05",
-            "category": "002",
+            "category": "FOOD",
+            "subcategory": "FOOD",
             "brand": "Food Brand G",
             "consistency": "dry",
             "size": "small",
@@ -1586,7 +1488,8 @@
             "name": "Brand G dry food Large",
             "description": "Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Mauris viverra diam vitae quam. Suspendisse potenti. Nullam porttitor lacus at turpis. Donec posuere metus vitae ipsum. Aliquam non mauris. Morbi non lectus. Aliquam sit amet diam in magna bibendum imperdiet. Nullam orci pede, venenatis non, sodales sed, tincidunt eu, felis. Fusce posuere felis sed lacus. Morbi sem mauris, laoreet ut, rhoncus aliquet, pulvinar sed, nisl.",
             "price": "$2.71",
-            "category": "002",
+            "category": "FOOD",
+            "subcategory": "FOOD",
             "brand": "Food Brand G",
             "consistency": "dry",
             "size": "large",
@@ -1602,7 +1505,8 @@
             "name": "Brand B Dry Food Indoor Formula small",
             "description": "Morbi ut odio. Cras mi pede, malesuada in, imperdiet et, commodo vulputate, justo. In blandit ultrices enim. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Proin interdum mauris non ligula pellentesque ultrices. Phasellus id sapien in sapien iaculis congue. Vivamus metus arcu, adipiscing molestie, hendrerit at, vulputate vitae, nisl. Aenean lectus.",
             "price": "$5.07",
-            "category": "002",
+            "category": "FOOD",
+            "subcategory": "FOOD",
             "brand": "Food Brand B",
             "consistency": "dry",
             "concern": "indoor",
@@ -1618,7 +1522,8 @@
             "name": "Brand A Dry Food Healthy Aging small",
             "description": "Duis at velit eu est congue elementum. In hac habitasse platea dictumst. Morbi vestibulum, velit id pretium iaculis, diam erat fermentum justo, nec condimentum neque sapien placerat ante. Nulla justo. Aliquam quis turpis eget elit sodales scelerisque. Mauris sit amet eros.",
             "price": "$1.53",
-            "category": "002",
+            "category": "FOOD",
+            "subcategory": "FOOD",
             "brand": "Food Brand A",
             "consistency": "dry",
             "concern": "aging",
@@ -1634,7 +1539,8 @@
             "name": "Brand B Dry food chicken small",
             "description": "Aenean fermentum. Donec ut mauris eget massa tempor convallis. Nulla neque libero, convallis eget, eleifend luctus, ultricies eu, nibh. Quisque id justo sit amet sapien dignissim vestibulum. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla dapibus dolor vel est. Donec odio justo, sollicitudin ut, suscipit a, feugiat et, eros. Vestibulum ac est lacinia nisi venenatis tristique. Fusce congue, diam id ornare imperdiet, sapien urna pretium nisl, ut volutpat sapien arcu sed augue. Aliquam erat volutpat. In congue.",
             "price": "$1.10",
-            "category": "002",
+            "category": "FOOD",
+            "subcategory": "FOOD",
             "brand": "Food Brand B",
             "consistency": "dry",
             "flavor": "chicken",
@@ -1650,7 +1556,8 @@
             "name": "Brand B wet Food Variety Pack Chicken and Beef",
             "description": "Nullam sit amet turpis elementum ligula vehicula consequat. Morbi a ipsum.",
             "price": "$5.65",
-            "category": "002",
+            "category": "FOOD",
+            "subcategory": "FOOD",
             "brand": "Food Brand B",
             "consistency": "wet",
             "flavor": "variety",
@@ -1666,7 +1573,8 @@
             "name": "Brand A dry food Chicken small",
             "description": "Maecenas rhoncus aliquam lacus. Morbi quis tortor id nulla ultrices aliquet. Maecenas leo odio, condimentum id, luctus nec, molestie sed, justo. Pellentesque viverra pede ac diam. Cras pellentesque volutpat dui. Maecenas tristique, est et tempus semper, est quam pharetra magna, ac consequat metus sapien ut nunc. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Mauris viverra diam vitae quam. Suspendisse potenti. Nullam porttitor lacus at turpis.",
             "price": "$8.90",
-            "category": "002",
+            "category": "FOOD",
+            "subcategory": "FOOD",
             "brand": "Food Brand A",
             "consistency": "dry",
             "flavor": "chicken",
@@ -1682,7 +1590,8 @@
             "name": "Brand B Wet Food Variety Pack Seafood Feast",
             "description": "Maecenas ut massa quis augue luctus tincidunt. Nulla mollis molestie lorem. Quisque ut erat. Curabitur gravida nisi at nibh. In hac habitasse platea dictumst. Aliquam augue quam, sollicitudin vitae, consectetuer eget, rutrum at, lorem. Integer tincidunt ante vel ipsum. Praesent blandit lacinia erat. Vestibulum sed magna at nunc commodo placerat. Praesent blandit.",
             "price": "$0.26",
-            "category": "002",
+            "category": "FOOD",
+            "subcategory": "FOOD",
             "brand": "Food Brand B",
             "consistency": "wet",
             "flavor": "variety",
@@ -1698,7 +1607,8 @@
             "name": "Brand A Wet Food Variety Pack With Gravy",
             "description": "Duis bibendum, felis sed interdum venenatis, turpis enim blandit mi, in porttitor pede justo eu massa. Donec dapibus.",
             "price": "$1.78",
-            "category": "002",
+            "category": "FOOD",
+            "subcategory": "FOOD",
             "brand": "Food Brand A",
             "consistency": "wet",
             "flavor": "variety",
@@ -1714,7 +1624,8 @@
             "name": "Brand A Wet food Variety Pack Seafood",
             "description": "Integer aliquet, massa id lobortis convallis, tortor risus dapibus augue, vel accumsan tellus nisi eu orci. Mauris lacinia sapien quis libero. Nullam sit amet turpis elementum ligula vehicula consequat. Morbi a ipsum. Integer a nibh. In quis justo. Maecenas rhoncus aliquam lacus. Morbi quis tortor id nulla ultrices aliquet.",
             "price": "$4.06",
-            "category": "002",
+            "category": "FOOD",
+            "subcategory": "FOOD",
             "brand": "Food Brand A",
             "consistency": "wet",
             "flavor": "variety",
@@ -1730,7 +1641,8 @@
             "name": "Brand B Dry Food Indoor Formula",
             "description": "Duis mattis egestas metus. Aenean fermentum. Donec ut mauris eget massa tempor convallis. Nulla neque libero, convallis eget, eleifend luctus, ultricies eu, nibh. Quisque id justo sit amet sapien dignissim vestibulum. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla dapibus dolor vel est. Donec odio justo, sollicitudin ut, suscipit a, feugiat et, eros. Vestibulum ac est lacinia nisi venenatis tristique.",
             "price": "$5.09",
-            "category": "002",
+            "category": "FOOD",
+            "subcategory": "FOOD",
             "brand": "Food Brand B",
             "concern": "indoor",
             "consistency": "dry",
@@ -1746,7 +1658,8 @@
             "name": "Brand A Dry Food Healthy Aging",
             "description": "Suspendisse accumsan tortor quis turpis. Sed ante. Vivamus tortor. Duis mattis egestas metus.",
             "price": "$4.05",
-            "category": "002",
+            "category": "FOOD",
+            "subcategory": "FOOD",
             "brand": "Food Brand A",
             "consistency": "dry",
             "images": [
@@ -1761,7 +1674,8 @@
             "name": "Brand B Dry Food",
             "description": "Curabitur in libero ut massa volutpat convallis. Morbi odio odio, elementum eu, interdum eu, tincidunt in, leo. Maecenas pulvinar lobortis est. Phasellus sit amet erat.",
             "price": "$3.98",
-            "category": "002",
+            "category": "FOOD",
+            "subcategory": "FOOD",
             "brand": "Food Brand B",
             "consistency": "dry",
             "images": [
@@ -1776,7 +1690,8 @@
             "name": "Brand B Wet Food Tuna",
             "description": "Nulla nisl.",
             "price": "$7.11",
-            "category": "002",
+            "category": "FOOD",
+            "subcategory": "FOOD",
             "brand": "Food Brand B",
             "consistency": "wet",
             "flavor": "tuna",
@@ -1792,7 +1707,8 @@
             "name": "Brand A Dry Food Chicken",
             "description": "Maecenas tincidunt lacus at velit. Vivamus vel nulla eget eros elementum pellentesque. Quisque porta volutpat erat. Quisque erat eros, viverra eget, congue eget, semper rutrum, nulla. Nunc purus. Phasellus in felis. Donec semper sapien a libero. Nam dui. Proin leo odio, porttitor id, consequat in, consequat ut, nulla.",
             "price": "$7.79",
-            "category": "002",
+            "category": "FOOD",
+            "subcategory": "FOOD",
             "brand": "Food Brand A",
             "consistency": "dry",
             "flavor": "chicken",
@@ -1808,7 +1724,8 @@
             "name": "Brand B Wet Food Salmon",
             "description": "In eleifend quam a odio. In hac habitasse platea dictumst. Maecenas ut massa quis augue luctus tincidunt. Nulla mollis molestie lorem.",
             "price": "$7.40",
-            "category": "002",
+            "category": "FOOD",
+            "subcategory": "FOOD",
             "brand": "Food Brand B",
             "consistency": "wet",
             "flavor": "salmon",
@@ -1824,7 +1741,8 @@
             "name": "Brand B Wet Food Beef",
             "description": "Nulla justo. Aliquam quis turpis eget elit sodales scelerisque. Mauris sit amet eros.",
             "price": "$7.15",
-            "category": "002",
+            "category": "FOOD",
+            "subcategory": "FOOD",
             "brand": "Food Brand B",
             "consistency": "wet",
             "flavor": "beef",
@@ -1840,7 +1758,8 @@
             "name": "Brand A Wet Food Chicken",
             "description": "Nullam varius. Nulla facilisi. Cras non velit nec nisi vulputate nonummy. Maecenas tincidunt lacus at velit. Vivamus vel nulla eget eros elementum pellentesque. Quisque porta volutpat erat.",
             "price": "$2.83",
-            "category": "002",
+            "category": "FOOD",
+            "subcategory": "FOOD",
             "brand": "Food Brand A",
             "consistency": "wet",
             "flavor": "chicken",
@@ -1856,7 +1775,8 @@
             "name": "Brand A Wet food Salmon",
             "description": "In congue. Etiam justo. Etiam pretium iaculis justo. In hac habitasse platea dictumst. Etiam faucibus cursus urna. Ut tellus. Nulla ut erat id mauris vulputate elementum. Nullam varius.",
             "price": "$2.24",
-            "category": "002",
+            "category": "FOOD",
+            "subcategory": "FOOD",
             "consistency": "wet",
             "flavor": "salmon",
             "images": [
@@ -1871,7 +1791,8 @@
             "name": "Brand A Wet Food Tuna",
             "description": "Integer ac neque. Duis bibendum. Morbi non quam nec dui luctus rutrum. Nulla tellus. In sagittis dui vel nisl. Duis ac nibh. Fusce lacus purus, aliquet at, feugiat non, pretium quis, lectus.",
             "price": "$3.02",
-            "category": "002",
+            "category": "FOOD",
+            "subcategory": "FOOD",
             "brand": "Food Brand A",
             "consistency": "wet",
             "flavor": "tuna",
@@ -1887,7 +1808,8 @@
             "name": "Brand A Wet Food Beef",
             "description": "Integer ac neque. Duis bibendum. Morbi non quam nec dui luctus rutrum. Nulla tellus. In sagittis dui vel nisl. Duis ac nibh. Fusce lacus purus, aliquet at, feugiat non, pretium quis, lectus. Suspendisse potenti. In eleifend quam a odio. In hac habitasse platea dictumst.",
             "price": "$0.59",
-            "category": "002",
+            "category": "FOOD",
+            "subcategory": "FOOD",
             "brand": "Food Brand A",
             "consistency": "wet",
             "flavor": "beef",
@@ -1903,7 +1825,8 @@
             "name": "Brand B Wet Food Chicken",
             "description": "In eleifend quam a odio. In hac habitasse platea dictumst. Maecenas ut massa quis augue luctus tincidunt. Nulla mollis molestie lorem. Quisque ut erat. Curabitur gravida nisi at nibh. In hac habitasse platea dictumst. Aliquam augue quam, sollicitudin vitae, consectetuer eget, rutrum at, lorem.",
             "price": "$3.13",
-            "category": "002",
+            "category": "FOOD",
+            "subcategory": "FOOD",
             "brand": "Food Brand B",
             "consistency": "wet",
             "flavor": "chicken",
@@ -1919,7 +1842,8 @@
             "name": "Gold Diggers crystal Litter 1",
             "description": "Nulla suscipit ligula in lacus. Curabitur at ipsum ac tellus semper interdum.",
             "price": "$1.37",
-            "category": "004",
+            "category": "LITTER_SUPPLIES",
+            "subcategory": "LITTER",
             "brand": "Gold Digger",
             "material": "crystals",
             "images": [
@@ -1934,7 +1858,8 @@
             "name": "Gold Digger Natural Litter 3",
             "description": "Nulla tempus. Vivamus in felis eu sapien cursus vestibulum. Proin eu mi. Nulla ac enim. In tempor, turpis nec euismod scelerisque, quam turpis adipiscing lorem, vitae mattis nibh ligula nec sem. Duis aliquam convallis nunc. Proin at turpis a pede posuere nonummy.",
             "price": "$9.12",
-            "category": "004",
+            "category": "LITTER_SUPPLIES",
+            "subcategory": "LITTER",
             "brand": "Gold Digger",
             "material": "pine",
             "images": [
@@ -1949,7 +1874,8 @@
             "name": "Gold Digger Clay litter 3",
             "description": "Quisque erat eros, viverra eget, congue eget, semper rutrum, nulla. Nunc purus. Phasellus in felis. Donec semper sapien a libero. Nam dui. Proin leo odio, porttitor id, consequat in, consequat ut, nulla. Sed accumsan felis. Ut at dolor quis odio consequat varius. Integer ac leo. Pellentesque ultrices mattis odio.",
             "price": "$4.61",
-            "category": "004",
+            "category": "LITTER_SUPPLIES",
+            "subcategory": "LITTER",
             "brand": "Gold Digger",
             "material": "clay",
             "images": [
@@ -1964,7 +1890,8 @@
             "name": "Gold Digger Lightweight Litter 1",
             "description": "Sed sagittis. Nam congue, risus semper porta volutpat, quam pede lobortis ligula, sit amet eleifend pede libero quis orci. Nullam molestie nibh in lectus. Pellentesque at nulla. Suspendisse potenti. Cras in purus eu magna vulputate luctus. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vivamus vestibulum sagittis sapien.",
             "price": "$3.26",
-            "category": "004",
+            "category": "LITTER_SUPPLIES",
+            "subcategory": "LITTER",
             "material": "lightweight clay",
             "brand": "Gold Digger",
             "images": [
@@ -1979,7 +1906,8 @@
             "name": "Gold Digger Natural Litter 2",
             "description": "Morbi non quam nec dui luctus rutrum. Nulla tellus. In sagittis dui vel nisl. Duis ac nibh. Fusce lacus purus, aliquet at, feugiat non, pretium quis, lectus. Suspendisse potenti. In eleifend quam a odio. In hac habitasse platea dictumst.",
             "price": "$4.86",
-            "category": "004",
+            "category": "LITTER_SUPPLIES",
+            "subcategory": "LITTER",
             "brand": "Gold Digger",
             "material": "pine",
             "images": [
@@ -1994,7 +1922,8 @@
             "name": "Gold Digger Natural Litter 1",
             "description": "Praesent blandit lacinia erat. Vestibulum sed magna at nunc commodo placerat. Praesent blandit. Nam nulla.",
             "price": "$7.12",
-            "category": "004",
+            "category": "LITTER_SUPPLIES",
+            "subcategory": "LITTER",
             "brand": "Gold Digger",
             "material": "corn",
             "images": [
@@ -2009,7 +1938,8 @@
             "name": "Gold Digger Litter 2",
             "description": "Nunc purus. Phasellus in felis. Donec semper sapien a libero.",
             "price": "$7.60",
-            "category": "004",
+            "category": "LITTER_SUPPLIES",
+            "subcategory": "LITTER",
             "brand": "Gold Digger",
             "material": "clay",
             "images": [
@@ -2024,7 +1954,8 @@
             "name": "Gold Digger Litter 1",
             "description": "Morbi quis tortor id nulla ultrices aliquet. Maecenas leo odio, condimentum id, luctus nec, molestie sed, justo. Pellentesque viverra pede ac diam.",
             "price": "$5.74",
-            "category": "004",
+            "category": "LITTER_SUPPLIES",
+            "subcategory": "LITTER",
             "brand": "Gold Digger",
             "material": "clay",
             "images": [
@@ -2039,7 +1970,8 @@
             "name": "Poop n Scoop Clay Litter 5",
             "description": "Duis bibendum. Morbi non quam nec dui luctus rutrum. Nulla tellus. In sagittis dui vel nisl. Duis ac nibh. Fusce lacus purus, aliquet at, feugiat non, pretium quis, lectus. Suspendisse potenti.",
             "price": "$9.84",
-            "category": "004",
+            "category": "LITTER_SUPPLIES",
+            "subcategory": "LITTER",
             "brand": "Poop n Scoop",
             "material": "Clay",
             "images": [
@@ -2054,7 +1986,8 @@
             "name": "Poop n Scoop Clay Litter 4",
             "description": "In hac habitasse platea dictumst. Maecenas ut massa quis augue luctus tincidunt. Nulla mollis molestie lorem. Quisque ut erat. Curabitur gravida nisi at nibh. In hac habitasse platea dictumst. Aliquam augue quam, sollicitudin vitae, consectetuer eget, rutrum at, lorem. Integer tincidunt ante vel ipsum. Praesent blandit lacinia erat.",
             "price": "$0.76",
-            "category": "004",
+            "category": "LITTER_SUPPLIES",
+            "subcategory": "LITTER",
             "brand": "Poop n Scoop",
             "material": "clay",
             "images": [
@@ -2069,7 +2002,8 @@
             "name": "Dusty Paws Natural Litter 5",
             "description": "Morbi sem mauris, laoreet ut, rhoncus aliquet, pulvinar sed, nisl. Nunc rhoncus dui vel sem. Sed sagittis.",
             "price": "$3.78",
-            "category": "004",
+            "category": "LITTER_SUPPLIES",
+            "subcategory": "LITTER",
             "brand": "Dusty Paws",
             "material": "pine",
             "images": [
@@ -2084,7 +2018,8 @@
             "name": "Kitty Butts lightweight Litter 5",
             "description": "Suspendisse ornare consequat lectus.",
             "price": "$3.39",
-            "category": "004",
+            "category": "LITTER_SUPPLIES",
+            "subcategory": "LITTER",
             "brand": "Kitty Butts",
             "material": "lightweight clay",
             "images": [
@@ -2099,7 +2034,8 @@
             "name": "Kitty Butts All Natural Litter 4",
             "description": "Vivamus vestibulum sagittis sapien. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Etiam vel augue. Vestibulum rutrum rutrum neque. Aenean auctor gravida sem. Praesent id massa id nisl venenatis lacinia.",
             "price": "$4.05",
-            "category": "004",
+            "category": "LITTER_SUPPLIES",
+            "subcategory": "LITTER",
             "brand": "Kitty Butts",
             "material": "corn",
             "images": [
@@ -2114,7 +2050,8 @@
             "name": "Kitty Butts Litter 2",
             "description": "Nunc purus. Phasellus in felis. Donec semper sapien a libero. Nam dui.",
             "price": "$9.91",
-            "category": "004",
+            "category": "LITTER_SUPPLIES",
+            "subcategory": "LITTER",
             "brand": "Kitty Butts",
             "material": "clay",
             "images": [
@@ -2129,7 +2066,8 @@
             "name": "Kitty Butts crystal Litter 3",
             "description": "Vivamus metus arcu, adipiscing molestie, hendrerit at, vulputate vitae, nisl. Aenean lectus.",
             "price": "$6.05",
-            "category": "004",
+            "category": "LITTER_SUPPLIES",
+            "subcategory": "LITTER",
             "brand": "pine",
             "material": "crystals",
             "images": [
@@ -2144,7 +2082,8 @@
             "name": "Poop n Scoop Natural Litter 6",
             "description": "Donec posuere metus vitae ipsum. Aliquam non mauris. Morbi non lectus. Aliquam sit amet diam in magna bibendum imperdiet. Nullam orci pede, venenatis non, sodales sed, tincidunt eu, felis. Fusce posuere felis sed lacus. Morbi sem mauris, laoreet ut, rhoncus aliquet, pulvinar sed, nisl.",
             "price": "$4.21",
-            "category": "004",
+            "category": "LITTER_SUPPLIES",
+            "subcategory": "LITTER",
             "brand": "Poop n Scoop",
             "material": "pine",
             "images": [
@@ -2159,7 +2098,8 @@
             "name": "Dusty Paws Clay Litter 1",
             "description": "Etiam faucibus cursus urna. Ut tellus. Nulla ut erat id mauris vulputate elementum. Nullam varius. Nulla facilisi. Cras non velit nec nisi vulputate nonummy. Maecenas tincidunt lacus at velit. Vivamus vel nulla eget eros elementum pellentesque. Quisque porta volutpat erat.",
             "price": "$2.09",
-            "category": "004",
+            "category": "LITTER_SUPPLIES",
+            "subcategory": "LITTER",
             "brand": "Dusty Paws",
             "material": "Clay",
             "images": [
@@ -2174,7 +2114,8 @@
             "name": "Dusty Paws Clay Litter 2",
             "description": "Morbi quis tortor id nulla ultrices aliquet. Maecenas leo odio, condimentum id, luctus nec, molestie sed, justo. Pellentesque viverra pede ac diam. Cras pellentesque volutpat dui. Maecenas tristique, est et tempus semper, est quam pharetra magna, ac consequat metus sapien ut nunc. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Mauris viverra diam vitae quam. Suspendisse potenti. Nullam porttitor lacus at turpis.",
             "price": "$2.84",
-            "category": "004",
+            "category": "LITTER_SUPPLIES",
+            "subcategory": "LITTER",
             "brand": "Dusty Paws",
             "material": "Clay",
             "images": [
@@ -2189,7 +2130,8 @@
             "name": "Dusty Paws Natural Litter 3",
             "description": "Pellentesque eget nunc. Donec quis orci eget orci vehicula condimentum. Curabitur in libero ut massa volutpat convallis. Morbi odio odio, elementum eu, interdum eu, tincidunt in, leo. Maecenas pulvinar lobortis est. Phasellus sit amet erat. Nulla tempus. Vivamus in felis eu sapien cursus vestibulum. Proin eu mi.",
             "price": "$9.17",
-            "category": "004",
+            "category": "LITTER_SUPPLIES",
+            "subcategory": "LITTER",
             "brand": "Dusty Paws",
             "material": "Corn",
             "images": [
@@ -2204,7 +2146,8 @@
             "name": "Poop n Scoop Lightweight Clay Litter 1",
             "description": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Proin interdum mauris non ligula pellentesque ultrices. Phasellus id sapien in sapien iaculis congue. Vivamus metus arcu, adipiscing molestie, hendrerit at, vulputate vitae, nisl.",
             "price": "$5.98",
-            "category": "004",
+            "category": "LITTER_SUPPLIES",
+            "subcategory": "LITTER",
             "brand": "Poop n Scoop",
             "material": "lightweight clay",
             "images": [
@@ -2219,7 +2162,8 @@
             "name": "Poop n Scoop Corn-based Litter 2",
             "description": "Praesent blandit lacinia erat. Vestibulum sed magna at nunc commodo placerat. Praesent blandit. Nam nulla. Integer pede justo, lacinia eget, tincidunt eget, tempus vel, pede. Morbi porttitor lorem id ligula. Suspendisse ornare consequat lectus. In est risus, auctor sed, tristique in, tempus sit amet, sem. Fusce consequat.",
             "price": "$9.20",
-            "category": "004",
+            "category": "LITTER_SUPPLIES",
+            "subcategory": "LITTER",
             "brand": "Poop n Scoop",
             "material": "corn",
             "images": [
@@ -2234,7 +2178,8 @@
             "name": "Poop n Scoop Pine Litter 3",
             "description": "In blandit ultrices enim. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Proin interdum mauris non ligula pellentesque ultrices. Phasellus id sapien in sapien iaculis congue.",
             "price": "$2.11",
-            "category": "004",
+            "category": "LITTER_SUPPLIES",
+            "subcategory": "LITTER",
             "brand": "Poop n Scoop",
             "material": "pine",
             "images": [
@@ -2249,7 +2194,8 @@
             "name": "Kitty Butts Litter 1",
             "description": "Integer tincidunt ante vel ipsum. Praesent blandit lacinia erat. Vestibulum sed magna at nunc commodo placerat. Praesent blandit. Nam nulla. Integer pede justo, lacinia eget, tincidunt eget, tempus vel, pede. Morbi porttitor lorem id ligula. Suspendisse ornare consequat lectus.",
             "price": "$3.62",
-            "category": "004",
+            "category": "LITTER_SUPPLIES",
+            "subcategory": "LITTER",
             "material": "clay",
             "images": [
                 "/images/products/product-img-1.jpg",
@@ -2263,7 +2209,8 @@
             "name": "Poop n Scoop Extra Large Litterbox",
             "description": "Nulla tempus. Vivamus in felis eu sapien cursus vestibulum. Proin eu mi. Nulla ac enim. In tempor, turpis nec euismod scelerisque, quam turpis adipiscing lorem, vitae mattis nibh ligula nec sem.",
             "price": "$6.23",
-            "category": "005",
+            "category": "LITTER_SUPPLIES",
+            "subcategory": "LITTERBOXES",
             "kind": "extra large",
             "brand": "Poop n Scoop",
             "images": [
@@ -2278,7 +2225,8 @@
             "name": "Gold Digger Extra Large Litter box",
             "description": "Nulla mollis molestie lorem.",
             "price": "$5.20",
-            "category": "005",
+            "category": "LITTER_SUPPLIES",
+            "subcategory": "LITTERBOXES",
             "kind": "extra large",
             "brand": "Gold Digger",
             "images": [
@@ -2293,7 +2241,8 @@
             "name": "Kitty Butts extra large litter box",
             "description": "Aliquam augue quam, sollicitudin vitae, consectetuer eget, rutrum at, lorem. Integer tincidunt ante vel ipsum. Praesent blandit lacinia erat. Vestibulum sed magna at nunc commodo placerat. Praesent blandit. Nam nulla. Integer pede justo, lacinia eget, tincidunt eget, tempus vel, pede. Morbi porttitor lorem id ligula. Suspendisse ornare consequat lectus. In est risus, auctor sed, tristique in, tempus sit amet, sem.",
             "price": "$9.04",
-            "category": "005",
+            "category": "LITTER_SUPPLIES",
+            "subcategory": "LITTERBOXES",
             "kind": "extra large",
             "brand": "Kitty Butts",
             "images": [
@@ -2308,7 +2257,8 @@
             "name": "Kitty Butts Sifting Litter Box",
             "description": "Quisque ut erat. Curabitur gravida nisi at nibh.",
             "price": "$6.98",
-            "category": "005",
+            "category": "LITTER_SUPPLIES",
+            "subcategory": "LITTERBOXES",
             "kind": "sifting",
             "brand": "Kitty Butts",
             "images": [
@@ -2323,7 +2273,8 @@
             "name": "Kitty Butts Covered Litter Box",
             "description": "Mauris lacinia sapien quis libero. Nullam sit amet turpis elementum ligula vehicula consequat. Morbi a ipsum. Integer a nibh.",
             "price": "$7.35",
-            "category": "005",
+            "category": "LITTER_SUPPLIES",
+            "subcategory": "LITTERBOXES",
             "shape": "covered",
             "brand": "Kitty Butts",
             "images": [
@@ -2338,7 +2289,8 @@
             "name": "Kitty Butts litter box",
             "description": "Mauris lacinia sapien quis libero. Nullam sit amet turpis elementum ligula vehicula consequat. Morbi a ipsum. Integer a nibh. In quis justo. Maecenas rhoncus aliquam lacus. Morbi quis tortor id nulla ultrices aliquet. Maecenas leo odio, condimentum id, luctus nec, molestie sed, justo. Pellentesque viverra pede ac diam.",
             "price": "$3.46",
-            "category": "005",
+            "category": "LITTER_SUPPLIES",
+            "subcategory": "LITTERBOXES",
             "kind": "standard",
             "brand": "Kitty Butts",
             "images": [
@@ -2353,7 +2305,8 @@
             "name": "Dusty Paws covered Litter Box",
             "description": "Maecenas tristique, est et tempus semper, est quam pharetra magna, ac consequat metus sapien ut nunc. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Mauris viverra diam vitae quam. Suspendisse potenti.",
             "price": "$3.08",
-            "category": "005",
+            "category": "LITTER_SUPPLIES",
+            "subcategory": "LITTERBOXES",
             "shape": "covered",
             "brand": "Dusty Paws",
             "images": [
@@ -2368,7 +2321,8 @@
             "name": "Dusty Paws Sifting Litter Box",
             "description": "Aenean sit amet justo. Morbi ut odio. Cras mi pede, malesuada in, imperdiet et, commodo vulputate, justo. In blandit ultrices enim. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Proin interdum mauris non ligula pellentesque ultrices. Phasellus id sapien in sapien iaculis congue. Vivamus metus arcu, adipiscing molestie, hendrerit at, vulputate vitae, nisl.",
             "price": "$7.04",
-            "category": "005",
+            "category": "LITTER_SUPPLIES",
+            "subcategory": "LITTERBOXES",
             "kind": "sifting",
             "brand": "Dusty paws",
             "images": [
@@ -2383,7 +2337,8 @@
             "name": "Dusty Paws Extra Large Litter Box",
             "description": "Etiam justo. Etiam pretium iaculis justo. In hac habitasse platea dictumst. Etiam faucibus cursus urna. Ut tellus. Nulla ut erat id mauris vulputate elementum. Nullam varius. Nulla facilisi. Cras non velit nec nisi vulputate nonummy.",
             "price": "$5.38",
-            "category": "005",
+            "category": "LITTER_SUPPLIES",
+            "subcategory": "LITTERBOXES",
             "kind": "extra large",
             "brand": "Dusty Paws",
             "images": [
@@ -2398,7 +2353,8 @@
             "name": "Gold Digger Covered Litterbox",
             "description": "Vivamus tortor. Duis mattis egestas metus. Aenean fermentum. Donec ut mauris eget massa tempor convallis. Nulla neque libero, convallis eget, eleifend luctus, ultricies eu, nibh. Quisque id justo sit amet sapien dignissim vestibulum. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla dapibus dolor vel est. Donec odio justo, sollicitudin ut, suscipit a, feugiat et, eros.",
             "price": "$2.29",
-            "category": "005",
+            "category": "LITTER_SUPPLIES",
+            "subcategory": "LITTERBOXES",
             "shape": "covered",
             "brand": "Gold Digger",
             "images": [
@@ -2413,7 +2369,8 @@
             "name": "Gold Diger Sifting Litterbox",
             "description": "In est risus, auctor sed, tristique in, tempus sit amet, sem. Fusce consequat. Nulla nisl. Nunc nisl. Duis bibendum, felis sed interdum venenatis, turpis enim blandit mi, in porttitor pede justo eu massa.",
             "price": "$1.34",
-            "category": "005",
+            "category": "LITTER_SUPPLIES",
+            "subcategory": "LITTERBOXES",
             "kind": "sifting",
             "brand": "Gold Digger",
             "images": [
@@ -2428,7 +2385,8 @@
             "name": "Gold Digger Litterbox",
             "description": "Duis consequat dui nec nisi volutpat eleifend. Donec ut dolor. Morbi vel lectus in quam fringilla rhoncus. Mauris enim leo, rhoncus sed, vestibulum sit amet, cursus id, turpis. Integer aliquet, massa id lobortis convallis, tortor risus dapibus augue, vel accumsan tellus nisi eu orci. Mauris lacinia sapien quis libero. Nullam sit amet turpis elementum ligula vehicula consequat. Morbi a ipsum.",
             "price": "$6.98",
-            "category": "005",
+            "category": "LITTER_SUPPLIES",
+            "subcategory": "LITTERBOXES",
             "brand": "Gold Digger",
             "kind": "standard",
             "images": [
@@ -2443,7 +2401,8 @@
             "name": "Gold Digger Self cleaning Litterbox",
             "description": "Cras mi pede, malesuada in, imperdiet et, commodo vulputate, justo. In blandit ultrices enim. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Proin interdum mauris non ligula pellentesque ultrices. Phasellus id sapien in sapien iaculis congue. Vivamus metus arcu, adipiscing molestie, hendrerit at, vulputate vitae, nisl. Aenean lectus.",
             "price": "$2.45",
-            "category": "005",
+            "category": "LITTER_SUPPLIES",
+            "subcategory": "LITTERBOXES",
             "brand": "Gold Digger",
             "kind": "self-cleaning robotic",
             "images": [
@@ -2458,7 +2417,8 @@
             "name": "Ameowsing Robot litterbox",
             "description": "Suspendisse accumsan tortor quis turpis. Sed ante. Vivamus tortor. Duis mattis egestas metus. Aenean fermentum.",
             "price": "$3.52",
-            "category": "005",
+            "category": "LITTER_SUPPLIES",
+            "subcategory": "LITTERBOXES",
             "brand": "Ameowsing",
             "kind": "self-cleaning robotic",
             "images": [
@@ -2473,7 +2433,8 @@
             "name": "Robo Cat Self-scooping litterbox",
             "description": "Morbi quis tortor id nulla ultrices aliquet. Maecenas leo odio, condimentum id, luctus nec, molestie sed, justo. Pellentesque viverra pede ac diam. Cras pellentesque volutpat dui.",
             "price": "$2.54",
-            "category": "005",
+            "category": "LITTER_SUPPLIES",
+            "subcategory": "LITTERBOXES",
             "brand": "robocat",
             "kind": "self-cleaning robotic",
             "images": [
@@ -2488,7 +2449,8 @@
             "name": "Dusty Paws Litter Box",
             "description": "Etiam pretium iaculis justo. In hac habitasse platea dictumst. Etiam faucibus cursus urna. Ut tellus. Nulla ut erat id mauris vulputate elementum. Nullam varius. Nulla facilisi.",
             "price": "$9.38",
-            "category": "005",
+            "category": "LITTER_SUPPLIES",
+            "subcategory": "LITTERBOXES",
             "kind": "standard",
             "brand": "Dusty Paws",
             "images": [
@@ -2503,7 +2465,8 @@
             "name": "Sifting Litter Box",
             "description": "Donec diam neque, vestibulum eget, vulputate ut, ultrices vel, augue. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec pharetra, magna vestibulum aliquet ultrices, erat tortor sollicitudin mi, sit amet lobortis sapien sapien non mi. Integer ac neque. Duis bibendum. Morbi non quam nec dui luctus rutrum. Nulla tellus. In sagittis dui vel nisl. Duis ac nibh. Fusce lacus purus, aliquet at, feugiat non, pretium quis, lectus.",
             "price": "$3.17",
-            "category": "005",
+            "category": "LITTER_SUPPLIES",
+            "subcategory": "LITTERBOXES",
             "kind": "sifting",
             "brand": "Poop n Scoop",
             "images": [
@@ -2518,7 +2481,8 @@
             "name": "Covered Litter Box",
             "description": "Morbi non lectus.",
             "price": "$9.60",
-            "category": "005",
+            "category": "LITTER_SUPPLIES",
+            "subcategory": "LITTERBOXES",
             "shape": "covered",
             "brand": "Poop n Scoop",
             "images": [
@@ -2533,7 +2497,8 @@
             "name": "Standard Litter Box",
             "description": "Proin eu mi. Nulla ac enim. In tempor, turpis nec euismod scelerisque, quam turpis adipiscing lorem, vitae mattis nibh ligula nec sem. Duis aliquam convallis nunc. Proin at turpis a pede posuere nonummy. Integer non velit. Donec diam neque, vestibulum eget, vulputate ut, ultrices vel, augue. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec pharetra, magna vestibulum aliquet ultrices, erat tortor sollicitudin mi, sit amet lobortis sapien sapien non mi. Integer ac neque.",
             "price": "$2.27",
-            "category": "005",
+            "category": "LITTER_SUPPLIES",
+            "subcategory": "LITTERBOXES",
             "kind": "standard",
             "brand": "Poop n Scoop",
             "images": [
@@ -2548,7 +2513,7 @@
             "name": "Tunnel 3",
             "description": "Nullam porttitor lacus at turpis. Donec posuere metus vitae ipsum. Aliquam non mauris. Morbi non lectus. Aliquam sit amet diam in magna bibendum imperdiet. Nullam orci pede, venenatis non, sodales sed, tincidunt eu, felis. Fusce posuere felis sed lacus.",
             "price": "$5.14",
-            "category": "006",
+            "category": "TUNNELBED",
             "brand": "Toy Brand B",
             "kind": "tunnel",
             "material": "plastic",
@@ -2564,7 +2529,7 @@
             "name": "Shark Cat bed",
             "description": "Integer ac neque. Duis bibendum. Morbi non quam nec dui luctus rutrum. Nulla tellus. In sagittis dui vel nisl. Duis ac nibh. Fusce lacus purus, aliquet at, feugiat non, pretium quis, lectus. Suspendisse potenti. In eleifend quam a odio. In hac habitasse platea dictumst.",
             "price": "$5.32",
-            "category": "006",
+            "category": "TUNNELBED",
             "brand": "cat bed brand 2",
             "kind": "bed",
             "material": "fabric",
@@ -2580,7 +2545,7 @@
             "name": "Croissant Cat Bed",
             "description": "In hac habitasse platea dictumst.",
             "price": "$1.73",
-            "category": "006",
+            "category": "TUNNELBED",
             "brand": "cat bed brand 2",
             "material": "fabric",
             "kind": "bed",
@@ -2596,7 +2561,7 @@
             "name": "Tunnel 1",
             "description": "Phasellus in felis. Donec semper sapien a libero.",
             "price": "$1.59",
-            "category": "006",
+            "category": "TUNNELBED",
             "brand": "Toy Brand B",
             "kind": "tunnel",
             "material": "fabric",
@@ -2612,7 +2577,7 @@
             "name": "Tunnel 2",
             "description": "Morbi vestibulum, velit id pretium iaculis, diam erat fermentum justo, nec condimentum neque sapien placerat ante. Nulla justo. Aliquam quis turpis eget elit sodales scelerisque.",
             "price": "$6.40",
-            "category": "006",
+            "category": "TUNNELBED",
             "brand": "Toy Brand B",
             "material": "fabric",
             "kind": "tunnel",
@@ -2628,7 +2593,7 @@
             "name": "Heated Cat Bed 2",
             "description": "Suspendisse potenti.",
             "price": "$0.43",
-            "category": "006",
+            "category": "TUNNELBED",
             "brand": "cat bed brand 1",
             "material": "fabric",
             "kind": "heated bed",
@@ -2644,7 +2609,7 @@
             "name": "Heated Cat Bed 1",
             "description": "Vestibulum quam sapien, varius ut, blandit non, interdum in, ante. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Duis faucibus accumsan odio. Curabitur convallis. Duis consequat dui nec nisi volutpat eleifend. Donec ut dolor. Morbi vel lectus in quam fringilla rhoncus. Mauris enim leo, rhoncus sed, vestibulum sit amet, cursus id, turpis. Integer aliquet, massa id lobortis convallis, tortor risus dapibus augue, vel accumsan tellus nisi eu orci. Mauris lacinia sapien quis libero. Nullam sit amet turpis elementum ligula vehicula consequat.",
             "price": "$5.79",
-            "category": "006",
+            "category": "TUNNELBED",
             "brand": "cat bed brand 3",
             "material": "fabric",
             "kind": "heated bed",
@@ -2660,7 +2625,7 @@
             "name": "Sisal Cat bed",
             "description": "Donec dapibus. Duis at velit eu est congue elementum. In hac habitasse platea dictumst. Morbi vestibulum, velit id pretium iaculis, diam erat fermentum justo, nec condimentum neque sapien placerat ante. Nulla justo.",
             "price": "$8.42",
-            "category": "006",
+            "category": "TUNNELBED",
             "material": "sisal",
             "brand": "cat bed brand 3",
             "kind": "bed",
@@ -2676,7 +2641,7 @@
             "name": "Igloo Cat bed",
             "description": "Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec pharetra, magna vestibulum aliquet ultrices, erat tortor sollicitudin mi, sit amet lobortis sapien sapien non mi.",
             "price": "$8.08",
-            "category": "006",
+            "category": "TUNNELBED",
             "brand": "cat bed brand 1",
             "material": "fabric",
             "kind": "bed",
@@ -2692,7 +2657,7 @@
             "name": "Sisal Cat cave",
             "description": "Aliquam quis turpis eget elit sodales scelerisque. Mauris sit amet eros. Suspendisse accumsan tortor quis turpis. Sed ante. Vivamus tortor. Duis mattis egestas metus. Aenean fermentum. Donec ut mauris eget massa tempor convallis.",
             "price": "$8.86",
-            "category": "006",
+            "category": "TUNNELBED",
             "brand": "cat bed brand 2",
             "material": "sisal",
             "kind": "cave",
@@ -2708,7 +2673,7 @@
             "name": "Plush Cat bed 2",
             "description": "Phasellus in felis. Donec semper sapien a libero. Nam dui. Proin leo odio, porttitor id, consequat in, consequat ut, nulla. Sed accumsan felis.",
             "price": "$0.22",
-            "category": "006",
+            "category": "TUNNELBED",
             "brand": "cat bed brand 1",
             "material": "fabric",
             "kind": "bed",
@@ -2724,7 +2689,7 @@
             "name": "Plush cat bed 1",
             "description": "Fusce lacus purus, aliquet at, feugiat non, pretium quis, lectus. Suspendisse potenti.",
             "price": "$7.56",
-            "category": "006",
+            "category": "TUNNELBED",
             "brand": "cat bed brand 1",
             "material": "fabric",
             "kind": "bed",
@@ -2740,7 +2705,7 @@
             "name": "Cat Cave Bed",
             "description": "Suspendisse potenti. In eleifend quam a odio. In hac habitasse platea dictumst. Maecenas ut massa quis augue luctus tincidunt. Nulla mollis molestie lorem. Quisque ut erat.",
             "price": "$3.55",
-            "category": "006",
+            "category": "TUNNELBED",
             "brand": "cat bed brand 2",
             "material": "polyester, microfiber",
             "kind": "cave",
@@ -2756,7 +2721,7 @@
             "name": "Fruit Tart Cat Bed",
             "description": "Nam nulla. Integer pede justo, lacinia eget, tincidunt eget, tempus vel, pede. Morbi porttitor lorem id ligula. Suspendisse ornare consequat lectus. In est risus, auctor sed, tristique in, tempus sit amet, sem. Fusce consequat. Nulla nisl. Nunc nisl. Duis bibendum, felis sed interdum venenatis, turpis enim blandit mi, in porttitor pede justo eu massa. Donec dapibus.",
             "price": "$4.53",
-            "category": "006",
+            "category": "TUNNELBED",
             "brand": "cat bed brand 1",
             "material": "polyester",
             "kind": "bed",
@@ -2772,7 +2737,7 @@
             "name": "Sushi Cat Bed",
             "description": "Fusce consequat. Nulla nisl. Nunc nisl. Duis bibendum, felis sed interdum venenatis, turpis enim blandit mi, in porttitor pede justo eu massa. Donec dapibus. Duis at velit eu est congue elementum. In hac habitasse platea dictumst. Morbi vestibulum, velit id pretium iaculis, diam erat fermentum justo, nec condimentum neque sapien placerat ante. Nulla justo.",
             "price": "$4.14",
-            "category": "006",
+            "category": "TUNNELBED",
             "brand": "cat bed brand 1",
             "material": "fabric",
             "kind": "bed",
@@ -2788,7 +2753,7 @@
             "name": "Cat Cave Bed 2",
             "description": "Morbi vel lectus in quam fringilla rhoncus. Mauris enim leo, rhoncus sed, vestibulum sit amet, cursus id, turpis. Integer aliquet, massa id lobortis convallis, tortor risus dapibus augue, vel accumsan tellus nisi eu orci. Mauris lacinia sapien quis libero. Nullam sit amet turpis elementum ligula vehicula consequat. Morbi a ipsum. Integer a nibh. In quis justo. Maecenas rhoncus aliquam lacus. Morbi quis tortor id nulla ultrices aliquet.",
             "price": "$0.87",
-            "category": "006",
+            "category": "TUNNELBED",
             "brand": "cat bed brand 2",
             "material": "cotton",
             "kind": "cave",
@@ -2804,7 +2769,7 @@
             "name": "Cat Cave Bed 3",
             "description": "Nunc purus. Phasellus in felis. Donec semper sapien a libero.",
             "price": "$8.88",
-            "category": "006",
+            "category": "TUNNELBED",
             "brand": "cat bed brand 2",
             "material": "fabric",
             "kind": "cave",
@@ -2820,7 +2785,8 @@
             "name": "Brand D dental chicken treats",
             "description": "Vestibulum rutrum rutrum neque. Aenean auctor gravida sem. Praesent id massa id nisl venenatis lacinia.",
             "price": "$6.42",
-            "category": "003",
+            "category": "FOOD",
+            "subcategory": "TREATS",
             "brand": "Food Brand D",
             "concern": "dental",
             "flavor": "chicken",
@@ -2836,7 +2802,8 @@
             "name": "Brand D Treats Seafood",
             "description": "Nulla mollis molestie lorem. Quisque ut erat. Curabitur gravida nisi at nibh. In hac habitasse platea dictumst. Aliquam augue quam, sollicitudin vitae, consectetuer eget, rutrum at, lorem.",
             "price": "$0.56",
-            "category": "003",
+            "category": "FOOD",
+            "subcategory": "TREATS",
             "brand": "Food Brand D",
             "flavor": "seafood",
             "images": [
@@ -2851,7 +2818,8 @@
             "name": "Brand D treats chicken",
             "description": "Sed accumsan felis. Ut at dolor quis odio consequat varius. Integer ac leo. Pellentesque ultrices mattis odio. Donec vitae nisi. Nam ultrices, libero non mattis pulvinar, nulla pede ullamcorper augue, a suscipit nulla elit ac nulla. Sed vel enim sit amet nunc viverra dapibus. Nulla suscipit ligula in lacus. Curabitur at ipsum ac tellus semper interdum.",
             "price": "$9.31",
-            "category": "003",
+            "category": "FOOD",
+            "subcategory": "TREATS",
             "brand": "Food Brand D",
             "flavor": "chicken",
             "images": [
@@ -2866,7 +2834,8 @@
             "name": "Brand D treats beef",
             "description": "Duis bibendum, felis sed interdum venenatis, turpis enim blandit mi, in porttitor pede justo eu massa.",
             "price": "$8.57",
-            "category": "003",
+            "category": "FOOD",
+            "subcategory": "TREATS",
             "brand": "Food Brand D",
             "flavor": "beef",
             "images": [
@@ -2881,7 +2850,8 @@
             "name": "Brand C treats Beef",
             "description": "Integer a nibh. In quis justo. Maecenas rhoncus aliquam lacus. Morbi quis tortor id nulla ultrices aliquet. Maecenas leo odio, condimentum id, luctus nec, molestie sed, justo. Pellentesque viverra pede ac diam. Cras pellentesque volutpat dui. Maecenas tristique, est et tempus semper, est quam pharetra magna, ac consequat metus sapien ut nunc. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Mauris viverra diam vitae quam. Suspendisse potenti.",
             "price": "$1.85",
-            "category": "003",
+            "category": "FOOD",
+            "subcategory": "TREATS",
             "brand": "Food Brand C",
             "flavor": "beef",
             "images": [
@@ -2896,7 +2866,8 @@
             "name": "Brand C Dental treats seafood",
             "description": "Vestibulum rutrum rutrum neque. Aenean auctor gravida sem. Praesent id massa id nisl venenatis lacinia. Aenean sit amet justo. Morbi ut odio. Cras mi pede, malesuada in, imperdiet et, commodo vulputate, justo.",
             "price": "$9.17",
-            "category": "003",
+            "category": "FOOD",
+            "subcategory": "TREATS",
             "brand": "Food Brand C",
             "concern": "dental",
             "flavor": "seafood",
@@ -2912,7 +2883,8 @@
             "name": "Brand D lickable treats chicken",
             "description": "Morbi odio odio, elementum eu, interdum eu, tincidunt in, leo. Maecenas pulvinar lobortis est.",
             "price": "$3.77",
-            "category": "003",
+            "category": "FOOD",
+            "subcategory": "TREATS",
             "brand": "Food Brand D",
             "flavor": "chicken",
             "images": [
@@ -2927,7 +2899,8 @@
             "name": "Brand C lickable treats seafood",
             "description": "Curabitur in libero ut massa volutpat convallis. Morbi odio odio, elementum eu, interdum eu, tincidunt in, leo. Maecenas pulvinar lobortis est. Phasellus sit amet erat. Nulla tempus. Vivamus in felis eu sapien cursus vestibulum. Proin eu mi. Nulla ac enim.",
             "price": "$2.36",
-            "category": "003",
+            "category": "FOOD",
+            "subcategory": "TREATS",
             "brand": "Food Brand C",
             "flavor": "seafood",
             "images": [
@@ -2942,7 +2915,8 @@
             "name": "Brand E training treats seafood",
             "description": "In tempor, turpis nec euismod scelerisque, quam turpis adipiscing lorem, vitae mattis nibh ligula nec sem. Duis aliquam convallis nunc. Proin at turpis a pede posuere nonummy. Integer non velit. Donec diam neque, vestibulum eget, vulputate ut, ultrices vel, augue. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec pharetra, magna vestibulum aliquet ultrices, erat tortor sollicitudin mi, sit amet lobortis sapien sapien non mi. Integer ac neque.",
             "price": "$8.01",
-            "category": "003",
+            "category": "FOOD",
+            "subcategory": "TREATS",
             "brand": "Food Brand E",
             "concern": "training",
             "flavor": "seafood",
@@ -2958,7 +2932,8 @@
             "name": "Brand A Training treats chicken",
             "description": "Mauris ullamcorper purus sit amet nulla.",
             "price": "$5.60",
-            "category": "003",
+            "category": "FOOD",
+            "subcategory": "TREATS",
             "brand": "Food Brand A",
             "concern": "training",
             "flavor": "chicken",
@@ -2974,7 +2949,8 @@
             "name": "Brand C Treats Chicken",
             "description": "Fusce congue, diam id ornare imperdiet, sapien urna pretium nisl, ut volutpat sapien arcu sed augue. Aliquam erat volutpat. In congue. Etiam justo. Etiam pretium iaculis justo.",
             "price": "$6.19",
-            "category": "003",
+            "category": "FOOD",
+            "subcategory": "TREATS",
             "brand": "Food Brand C",
             "flavor": "chicken",
             "images": [
@@ -2989,7 +2965,8 @@
             "name": "Brand C Treats Seafood",
             "description": "Cras in purus eu magna vulputate luctus. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vivamus vestibulum sagittis sapien. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.",
             "price": "$5.20",
-            "category": "003",
+            "category": "FOOD",
+            "subcategory": "TREATS",
             "brand": "Food Brand C",
             "flavor": "seafood",
             "images": [
@@ -3004,7 +2981,7 @@
             "name": "Sisal wall panel",
             "description": "Sed vel enim sit amet nunc viverra dapibus. Nulla suscipit ligula in lacus. Curabitur at ipsum ac tellus semper interdum. Mauris ullamcorper purus sit amet nulla. Quisque arcu libero, rutrum ac, lobortis vel, dapibus at, diam. Nam tristique tortor eu pede.",
             "price": "$0.12",
-            "category": "007",
+            "category": "FURNITURE",
             "brand": "Cat Furniture Brand B",
             "images": [
                 "/images/products/product-img-1.jpg",
@@ -3018,7 +2995,7 @@
             "name": "Corner self grooming brush 1",
             "description": "Vestibulum sed magna at nunc commodo placerat. Praesent blandit. Nam nulla. Integer pede justo, lacinia eget, tincidunt eget, tempus vel, pede. Morbi porttitor lorem id ligula.",
             "price": "$3.73",
-            "category": "007",
+            "category": "FURNITURE",
             "brand": "Toy Brand B",
             "images": [
                 "/images/products/product-img-1.jpg",
@@ -3032,7 +3009,7 @@
             "name": "Corner self grooming brush 2",
             "description": "Nunc nisl. Duis bibendum, felis sed interdum venenatis, turpis enim blandit mi, in porttitor pede justo eu massa. Donec dapibus. Duis at velit eu est congue elementum. In hac habitasse platea dictumst. Morbi vestibulum, velit id pretium iaculis, diam erat fermentum justo, nec condimentum neque sapien placerat ante. Nulla justo. Aliquam quis turpis eget elit sodales scelerisque.",
             "price": "$9.45",
-            "category": "007",
+            "category": "FURNITURE",
             "brand": "Toy Brand B",
             "images": [
                 "/images/products/product-img-1.jpg",

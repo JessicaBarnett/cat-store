@@ -2,7 +2,7 @@ import { useEffect, useState } from 'react';
 import { Product } from '../types/Product';
 
 type useProductsParams = {
-  category?: string,
+  categoryName?: string,
   query?: string,
   productId?: string
 }
@@ -14,7 +14,7 @@ type useProductsReturn = {
   error: unknown
 }
 
-export default function useProducts({ category, query, productId }: useProductsParams): useProductsReturn {
+export default function useProducts({ categoryName, query, productId }: useProductsParams): useProductsReturn {
   const [products, setProducts] = useState<Product[]>([]);
   const [product, setProduct] = useState<Product>();
   const [isLoading, setIsLoading] = useState<boolean>(false);
@@ -24,8 +24,8 @@ export default function useProducts({ category, query, productId }: useProductsP
     (async () => {
       let url;
 
-      if (category) {
-        url = `http://localhost:2222/api/v1/products/${category}`;
+      if (categoryName) {
+        url = `http://localhost:2222/api/v1/products/${categoryName}`;
       } else if (query) {
         url = `http://localhost:2222/api/v1/products?q=${query}`;
       } else if (productId) {
@@ -35,7 +35,7 @@ export default function useProducts({ category, query, productId }: useProductsP
       }
 
       // TODO: remove me
-      console.log(`fetching product(s) for: "${category ?? query ?? productId ?? 'all products'}" from url: "${url}"`);
+      console.log(`fetching product(s) for: "${categoryName ?? query ?? productId ?? 'all products'}" from url: "${url}"`);
 
       try {
         setIsLoading(true);
@@ -54,7 +54,7 @@ export default function useProducts({ category, query, productId }: useProductsP
         setIsLoading(false);
       }
     })();
-  }, [category, query, productId]);
+  }, [categoryName, query, productId]);
 
   return {
     isLoading,

@@ -10,10 +10,10 @@ import useProducts from '@hooks/useProducts';
 
 export const ProductListPage: React.FC = () => {
   // category page
-  const { category } = useParams();
+  const { categoryName } = useParams();
 
   const useProductsParams = {
-    ...( category && {category : category }),
+    ...( categoryName && {categoryName : categoryName }),
   };
   const { isLoading, products, error } = useProducts(useProductsParams);
 

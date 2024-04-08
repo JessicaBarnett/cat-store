@@ -8,7 +8,9 @@ export const SearchField: React.FC = () => {
 
   const submitSearch = (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
-    const formData = new FormData(e.currentTarget); // e.target v e.currentTarget: https://stackoverflow.com/questions/75285468/giving-html-form-to-formdata-through-event-target-is-throwing-argument-of-type
+    // e.target v e.currentTarget typeerror
+    // https://stackoverflow.com/questions/75285468/giving-html-form-to-formdata-through-event-target-is-throwing-argument-of-type
+    const formData = new FormData(e.currentTarget);
     const query = formData.get('query');
 
     if (query) {
